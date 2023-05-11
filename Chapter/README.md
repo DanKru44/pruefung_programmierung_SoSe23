@@ -5,7 +5,7 @@ Diese Dateien enthalten keinen \start{document}-Befehl.
 ## Hinzufügen in die main.tex
 Die einzelnen .tex Dateien wurden in die main.tex mit der entsprechenden Anweisung hinzugefügt.
 
-Beispiel: \input{Chapter/Aufgabe1.tex}
+Beispiel: `\input{Chapter/Aufgabe1.tex}`
 
 
 ## Aufgabenstellungen
