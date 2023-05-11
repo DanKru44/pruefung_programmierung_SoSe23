@@ -26,4 +26,8 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 	- [ ] Was haben diese mit Programmiersprachen gemein
 	- [ ] Wie unterscheiden sie sich von Programmiersprachen
 	- [ ] Warum sind Textsatzbeschreibungssprachen für größere Projektdokumentationen besser geeignet als integrierte Wordprozessoren wie Word
-	- [ ] Begriffe die untergebracht werden sollen: Ghostscript, Groff, Markdown, HTML                                                                                      ~
+	- [ ] Begriffe die untergebracht werden sollen: 
+		- [ ] Ghostscript
+		- [ ] Groff
+		- [ ] Markdown
+		- [ ] HTML
