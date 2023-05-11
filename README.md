@@ -27,6 +27,6 @@ Enthält die BibTeX-Datei aus der das Quellenverzeichnis erstellt wurde.
 Kurze Zusammenfassungen der Teilaufgaben der Ausarbeitung.
 Umfangreichere Informationen zu den Teilaufgaben befinden sich in der README.md des ORdners Chapter.
 
-### Aufgabe 1
+### [ ] Aufgabe 1
 - Erstellen des Repos, der main.tex, README.md und der Ordner für das Repo der Ausarbeitung
 - Ein Aufsatz (400 +/-25 Wörter) über Textsatzbeschreibungssprachen.
