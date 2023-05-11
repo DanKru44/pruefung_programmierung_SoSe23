@@ -22,8 +22,8 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 - README.md für die Unterverzeichnise anlegen
 
 - Schreiben eines Ausatzes von 400 +/-25 Worten.
--- Beschreiben was Textbeschreibungssprachen sind
--- Was haben diese mit Programmiersprachen gemein
--- Wie unterscheiden sie sich von Programmiersprachen
--- Warum sind Textsatzbeschreibungssprachen für größere Projektdokumentationen besser geeignet als integrierte Wordprozessoren wie Word
--- Begriffe die untergebracht werden sollen: Ghostscript, Groff, Markdown, HTML
+	- Beschreiben was Textbeschreibungssprachen sind
+	- Was haben diese mit Programmiersprachen gemein
+	- Wie unterscheiden sie sich von Programmiersprachen
+	- Warum sind Textsatzbeschreibungssprachen für größere Projektdokumentationen besser geeignet als integrierte Wordprozessoren wie Word
+	- Begriffe die untergebracht werden sollen: Ghostscript, Groff, Markdown, HTML                                                                                      ~
