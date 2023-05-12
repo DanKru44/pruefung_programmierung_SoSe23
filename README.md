@@ -39,4 +39,4 @@ Umfangreichere Informationen zu den Teilaufgaben befinden sich in der README.md 
 Kleine Teilschritte die nicht direkt mit den Aufgaben zu tun haben, allerdings mit zur Ausarbeitung haben wie z.b. BibTex Quellenangaben usw.
 
 - [ ] BibTex einbindung testen
-- [ ] Aufgaben einbindung in die main.tex testen
+- [x] Aufgaben einbindung in die main.tex testen
