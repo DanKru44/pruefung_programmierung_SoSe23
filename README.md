@@ -36,7 +36,7 @@ Umfangreichere Informationen zu den Teilaufgaben befinden sich in der README.md 
 - Beschreiben und erklären des Programms Zeile für Zeile.
 
 ## To do´s 
-Kleine Teilschritte die nicht direkt mit den Aufgaben zu tun haben, allerdings mit zur Ausarbeitung wie z.b. BibTex Quellenangaben usw. . Dieser Abschnitt dient nur als Hilfestellung für mich persönlich um einen Überblick über zu erliegende Aufgaben zu behalten.
+Kleine Teilschritte die nicht direkt mit den Aufgaben zu tun haben, allerdings mit zur Ausarbeitung wie z.b. BibTex Quellenangaben usw. . Dieser Abschnitt dient nur als Hilfestellung für mich persönlich um einen Überblick über zu erledigende Aufgaben zu behalten.
 
 - [ ] BibTex einbindung testen
 - [x] Aufgaben einbindung in die main.tex testen
