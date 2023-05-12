@@ -1,5 +1,5 @@
 # Ausarbeitung Programmierung SoSe 2023
-In diesem Repo befindet sich die Ausarbeitung für die Modulprüfung Programmierung für das Sommersemester 2023. 
+In diesem Repo befindet sich die Ausarbeitung für die Modulprüfung Programmierung für das Sommersemester 2023. Die einzelnen Teilaufgaben werden dazu im Ordner Chapter bearbeitet und im Hauptverzeichnis in die Datei main.tex eingefügt.
 
 
 ## Kompilation
@@ -28,5 +28,9 @@ Kurze Zusammenfassungen der Teilaufgaben der Ausarbeitung.
 Umfangreichere Informationen zu den Teilaufgaben befinden sich in der README.md des Ordners Chapter.
 
 ### [ ] Aufgabe 1
-- Erstellen des Repos, der main.tex, README.md und der Ordner für das Repo der Ausarbeitung
+- Erstellen des Repos, der main.tex, README.md und der Ordner für das Repo der Ausarbeitung.
 - Ein Aufsatz (400 +/-25 Wörter) über Textsatzbeschreibungssprachen.
+
+### [ ] Bonusaufgabe 
+- Auswahl eines Programmes aus dem Repo heirloom-project.
+- Beschreiben und erklären des Programms Zeile für Zeile.
