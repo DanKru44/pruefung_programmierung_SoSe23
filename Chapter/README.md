@@ -38,4 +38,4 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 - [ ] Kompilieren und Beobachtungen aufschreiben
 - [ ] Versuchen den Code Zeile für Zeile zu erklären 
 	- [ ] Mit Abbildungen oder Diagrammen erläutern
-> Wichtig die Erklärung muss nicht zu 100% korrekt sein, es geht darum zu zeigen dass man sich Mühe gibt 
+> **Wichtig:** Die Erklärung muss nicht zu 100% korrekt sein, es geht darum zu zeigen dass man sich Mühe gibt 
