@@ -3,9 +3,11 @@ In diesem Repo befindet sich die Ausarbeitung für die Modulprüfung Programmier
 
 
 ## Kompilation
-Die main.tex lässt sich mit dem texlive paket einfach kompilieren.
+Die Datei main.tex lässt sich einfach mit dem paket texlive komilieren.
+
 Beispiel: `pdflatex main.tex`
 
+Die Datei main.tex muss dazu zweimal kompiliert werden um im Inhaltsverzeichnis die Seitenzahlen und die Labels zu aktualisieren. Dies liegt daran das beim ersten kompilieren die Gliedrung und die Labels in eine Hilfsdatei umgeschrieben werden und erst im zweiten durchlauch das Inhaltsverzeichnis erstellt wird.
 
 ## Ordnerinhalte
 Eine grobe Auflistung der Ordnerinhalte in diesem Repo. Weitere Informationen befinden sich in den README.md Dateien der Ordner.
