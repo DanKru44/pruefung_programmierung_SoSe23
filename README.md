@@ -1,5 +1,5 @@
 # Ausarbeitung Programmierung SoSe 2023
-In diesem Repo befindet sich die Ausarbeitung für die Modulprüfung Programmierung für das Sommersemester 2023. Die einzelnen Teilaufgaben werden dazu im Ordner Chapter in eizelnen .tex Dateien bearbeitet und im Hauptverzeichnis in die Datei main.tex eingefügt.
+In diesem Repo befindet sich die Ausarbeitung für die Modulprüfung Programmierung für das Sommersemester 2023. Die einzelnen Teilaufgaben werden dazu im Ordner Chapter in eizelnen .tex Dateien bearbeitet und im Hauptverzeichnis in die Datei main.tex eingefügt. In der Datei test.tex wurden einige Befehle für LaTeX ausprobiert und dient als Hilfestellung für die Erstellung der main.tex mit Beispielen.
 
 
 ## Kompilation
