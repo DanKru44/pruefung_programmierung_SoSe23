@@ -33,9 +33,9 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 		- [ ] HTML
 
 ### Bonausaufgabe 
-- [ ] Anschauen des heirloomproject (Link hier noch einfügen)
+- [ ] Anschauen des [heirloom-project](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom)
 - [ ] Aussuchen eines der Programme: Hier Programm eintragen
 - [ ] Kompilieren und Beobachtungen aufschreiben
 - [ ] Versuchen den Code Zeile für Zeile zu erklären 
 	- [ ] Mit Abbildungen oder Diagrammen erläutern
-- Wichtig die Erklärung muss nicht zu 100% korrekt sein, es geht darum zu zeigen dass man sich Mühe gibt (Formatierung dieses hier als Kiste)
+> Wichtig die Erklärung muss nicht zu 100% korrekt sein, es geht darum zu zeigen dass man sich Mühe gibt 
