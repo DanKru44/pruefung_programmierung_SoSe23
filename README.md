@@ -43,3 +43,12 @@ Kleine Teilschritte die nicht direkt mit den Aufgaben zu tun haben, allerdings m
 - [ ] BibTex einbindung testen
 - [x] Aufgaben einbindung in die main.tex testen
 - [ ] Datum in die main.tex am Ende der Bearbeitung einfügen
+- [ ] Formatierung der main.tex 
+	- [ ] Fußnote
+	- [ ] Abbiludngsverzeichnis
+	- [ ] Tabellenverzeichnis
+	- [ ] Literaturverzeichnis 
+	- [ ] Begriffsverzeichnis
+- [ ] Vorwort
+- [ ] Überblick Kapitelweise
+- [ ] Zusammenfassung Kapitelweise
