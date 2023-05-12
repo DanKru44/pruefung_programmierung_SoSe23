@@ -35,7 +35,7 @@ Umfangreichere Informationen zu den Teilaufgaben befinden sich in der README.md 
 - Auswahl eines Programmes aus dem Repo [heirloom-project](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom).
 - Beschreiben und erklären des Programms Zeile für Zeile.
 
-### To do´s 
+## To do´s 
 Kleine Teilschritte die nicht direkt mit den Aufgaben zu tun haben, allerdings mit zur Ausarbeitung haben wie z.b. BibTex Quellenangaben usw.
 
 [ ] BibTex einbindung testen
