@@ -32,5 +32,5 @@ Umfangreichere Informationen zu den Teilaufgaben befinden sich in der README.md 
 - Ein Aufsatz (400 +/-25 Wörter) über Textsatzbeschreibungssprachen.
 
 ### [ ] Bonusaufgabe 
-- Auswahl eines Programmes aus dem Repo heirloom-project.
+- Auswahl eines Programmes aus dem Repo [heirloom-project](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom).
 - Beschreiben und erklären des Programms Zeile für Zeile.
