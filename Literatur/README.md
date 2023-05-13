@@ -10,7 +10,7 @@ Dieser Anschnitt dient dazu mir persönlich die Befehle zum einbinden des Litera
 - Der Stil des Literaturverzeichnisses ist natdin (vor \begin{document})
 	Beispiel:`bibliographystyle{natdin}
 
-- Ausgabe des Literaturverzeichnisses (nach \begin{document UND DIREKT VOR \end{document}.
+- Ausgabe des Literaturverzeichnisses (nach \begin{document **und direkt vor** \end{document}.
 	Beispiel:`bibliography{Literatur/literatur}` 
 
 	Das Argument in den geschweiften Klammern ist dabei die angabe des Ordners Literatur und die darin befindliche Datei literatur.bib . Diese wird allerdings ohne die Endung .bib angegeben.
