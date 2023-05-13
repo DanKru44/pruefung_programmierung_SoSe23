@@ -29,13 +29,13 @@ Eine grobe Auflistung der Ordnerinhalte in diesem Repo. Weitere Informationen be
 Enthält alle in der Ausarbeitung verwendeten Bilder und Grafiken.
 
 ### Chapter
-Enthält die .tex Dateien der einzelnen Teilaufgaben der Ausarbeitung.
+Enthält die .tex Dateien der einzelnen Teilaufgaben der Ausarbeitung und eine Liste mit den zu erledigenden Aufgaben und Aufgabenteilen.
 
 ### Style
 Enthält Textformatierungseinstellungen der .tex Dateien.
 
 ### Literatur
-Enthält die BibTeX-Datei aus der das Quellenverzeichnis erstellt wurde.
+Enthält die BibTeX-Datei aus der das Quellenverzeichnis erstellt wurde und Erklärung zu den genutzten Befehlen. Ebenfalls ist eine Anleitung zum zitieren enthalten.
 
 
 ## Aufgabenbeschreibung
