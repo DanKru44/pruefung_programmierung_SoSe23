@@ -53,7 +53,7 @@ Umfangreichere Informationen zu den Teilaufgaben befinden sich in der README.md 
 ## To do´s 
 Kleine Teilschritte die nicht direkt mit den Aufgaben zu tun haben, allerdings mit zur Ausarbeitung wie z.b. BibTex Quellenangaben usw. . Dieser Abschnitt dient nur als Hilfestellung für mich persönlich um einen Überblick über zu erledigende Aufgaben zu behalten.
 
-- [ ] BibTex einbindung testen
+- [x] BibTex einbindung testen
 - [x] Aufgaben einbindung in die main.tex testen
 - [ ] Datum in die main.tex am Ende der Bearbeitung einfügen
 - [ ] Formatierung der main.tex 
