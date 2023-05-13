@@ -77,6 +77,6 @@ Hier sind einige nützliche Links enthalten zur bearbeitung von .tex Dateien , .
 
 - Hilfestellungen und Anleitungen auf [Overleaf](https://www.overleaf.com/learn)
 
-- Skript zur Verwendung von Latex von [Daniel Hommel] (https://www2.hs-esslingen.de/~dhommel/skript.pdf)
+- Skript zur Verwendung von Latex von [Daniel Hommel](https://www2.hs-esslingen.de/~dhommel/skript.pdf)
 
-- Skript zur Verwendung von Latex von [Thorsten Nagel] (http://astro.uni-tuebingen.de/~nagel/pub/Kolleg/Latex/DOKU/Latexkurs_Skript.pdf)
+- Skript zur Verwendung von Latex von [Thorsten Nagel](http://astro.uni-tuebingen.de/~nagel/pub/Kolleg/Latex/DOKU/Latexkurs_Skript.pdf)
