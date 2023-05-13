@@ -12,4 +12,5 @@ Dieser Anschnitt dient dazu mir persönlich die Befehle zum einbinden des Litera
 
 - Ausgabe des Literaturverzeichnisses (nach \begin{document UND DIREKT VOR \end{document}.
 	Beispiel:`bibliography{Literatur/literatur}` 
+
 Das Argument in den geschweiften Klammern ist dabei die angabe des Ordners Literatur und die darin befindliche Datei literatur.bib . Diese wird allerdings ohne die Endung .bib angegeben.
