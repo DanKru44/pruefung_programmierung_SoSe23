@@ -3,11 +3,25 @@ In diesem Repo befindet sich die Ausarbeitung für die Modulprüfung Programmier
 
 
 ## Kompilation
-Die Datei main.tex lässt sich einfach mit dem paket texlive komilieren.
+Die Datei main.tex lässt sich einfach mit dem paket texlive komilieren. Um das Literaturverzeichnis und das Inhaltsverzeichnis zu generieren müssen mehrere Kompilations-Schritte durchlaufen werden.
 
-Beispiel: `pdflatex main.tex`
+1. Zuerst die main.tex kompiliert werden.
 
-Die Datei main.tex muss dazu zweimal kompiliert werden um im Inhaltsverzeichnis die Seitenzahlen und die Labels zu aktualisieren. Dies liegt daran das beim ersten kompilieren die Gliedrung und die Labels in eine Hilfsdatei umgeschrieben werden und erst im zweiten durchlauch das Inhaltsverzeichnis erstellt wird.
+2. Anschließend muss die die Datei main.aux mit dem Befehl Bibtex kompiliert erden.
+
+3. Nun muss erneut die main.tex kompiliert werden.
+	
+4. Zuletzt noch einmal die main.tex kompilieren.
+
+Beispiel:
+```
+
+pdflatex main.tex
+bibtex main.aux
+pdflatex main.tex
+pdflatex main.tex
+```
+	
 
 ## Ordnerinhalte
 Eine grobe Auflistung der Ordnerinhalte in diesem Repo. Weitere Informationen befinden sich in den README.md Dateien der Ordner.
