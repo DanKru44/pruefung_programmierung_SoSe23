@@ -24,5 +24,5 @@ Eine Anleitung zu den Befehlen mit denen in den Aufgaben zitiert werden können.
 - Um den Autor und das Jahr in Klammern zu zitieren wird der Befehl citep genutzt
 	Beispiel: `\citep{Name der Quellenangabe in der literatur.bib}`
 
-- Soll eine Quellenangabe mit ins Literaturverzeichnis, die nicht direkt zitiert wurde wird der Befehl nocite benutzt.
+- Soll eine Quellenangabe mit ins Literaturverzeichnis, die nicht direkt zitiert wurde wird der Befehl nocite benutzt.	
 	Beispiel: `\nocite{Name der Quellenangabe in der literatur.bib}`
