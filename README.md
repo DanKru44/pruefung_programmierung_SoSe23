@@ -55,6 +55,7 @@ Kleine Teilschritte die nicht direkt mit den Aufgaben zu tun haben, allerdings m
 
 - [x] BibTex einbindung testen
 - [x] Aufgaben einbindung in die main.tex testen
+- [ ] Fehler in der Quellenangabe von Satz(Druck) beheben
 - [ ] Datum in die main.tex am Ende der Bearbeitung einfügen
 - [ ] Formatierung der main.tex 
 	- [ ] Fußnote
