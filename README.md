@@ -15,7 +15,6 @@ Die Datei main.tex lässt sich einfach mit dem paket texlive komilieren. Um das 
 
 Beispiel:
 ```
-
 pdflatex main.tex
 bibtex main.aux
 pdflatex main.tex
