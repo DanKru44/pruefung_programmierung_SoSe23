@@ -2,9 +2,11 @@
 
 \usepackage[ngerman]{babel}
 \usepackage{graphicx}
-
+\usepackage{hyperref}
+\usepackage{natbib}
 
 \bibliographystyle{natdin}
+\setcitestyle{authoryear,open={(},close={)}}
 
 \title{Modulprüfung Programmierung Sommersemester 2023}
 \author{Daniel Krüger}
@@ -12,11 +14,14 @@
 
 \begin{document}
 
+
 \maketitle
 
 \tableofcontents
 
 \chapter{Aufgabe 1}
 \input{Chapter/Aufgabe1.tex}
+
+\bibliography{Literatur/literatur}
 
 \end{document}
