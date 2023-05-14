@@ -36,8 +36,9 @@ Eine Anleitung zu den Befehlen mit denen in den Aufgaben zitiert werden können.
 ## Formate in der .bib Datei
 Überblick über Quellenangaben und deren Formatierung in der .bib Datei
 
-- Webseiten
-	Benötigt Angaben sind author, title, howpublished und year. Zusätzlich könne month und day angegeben werden.
+- Webseiten:
+
+	Benötigte Angaben sind author, title, howpublished und year. Zusätzlich könne month und day angegeben werden.
 	Beispiel:
 	```
 	@misc{Krüger:2023,
