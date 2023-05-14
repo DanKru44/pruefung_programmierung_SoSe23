@@ -57,7 +57,8 @@ Kleine Teilschritte die nicht direkt mit den Aufgaben zu tun haben, allerdings m
 
 - [x] BibTex einbindung testen
 - [x] Aufgaben einbindung in die main.tex testen
-- [ ] Fehler in der Quellenangabe von Satz(Druck) beheben
+- [x] Fehler in der Quellenangabe von Satz(Druck) beheben 
+		- DEr Fehler war die Angabe des Datums in .bib Datei. Alle Datums Angaben müssen in seperate Felder für year, month und day eingetragen werden, damit diese richtig formatiert werden.
 - [ ] Datum in die main.tex am Ende der Bearbeitung einfügen
 - [ ] Formatierung der main.tex 
 	- [ ] Fußnote
