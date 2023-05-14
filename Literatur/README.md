@@ -39,7 +39,7 @@ Eine Anleitung zu den Befehlen mit denen in den Aufgaben zitiert werden können.
 - Webseiten
 	Benötigt Angaben sind author, title, howpublished und year. Zusätzlich könne month und day angegeben werden.
 	Beispiel:
-	´´´
+	```
 	@misc{Krüger:2023,
 	author		 = {Daniel Krüger},
 	title		 = {Hausarbeit Programmierung},
@@ -48,4 +48,4 @@ Eine Anleitung zu den Befehlen mit denen in den Aufgaben zitiert werden können.
 	month		 = {05},
 	day			 = {14}
 	}
-	´´´
+	```
