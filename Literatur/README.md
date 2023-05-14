@@ -32,3 +32,20 @@ Eine Anleitung zu den Befehlen mit denen in den Aufgaben zitiert werden können.
 - Soll eine Quellenangabe mit ins Literaturverzeichnis, die nicht direkt zitiert wurde wird der Befehl nocite benutzt.	
 
 	Beispiel: `\nocite{Name der Quellenangabe in der literatur.bib}`
+
+## Formate in der .bib Datei
+Überblick über Quellenangaben und deren Formatierung in der .bib Datei
+
+- Webseiten
+	Benötigt Angaben sind author, title, howpublished und year. Zusätzlich könne month und day angegeben werden.
+	Beispiel:
+	´´´
+	@misc{Krüger:2023,
+	author		 = {Daniel Krüger},
+	title		 = {Hausarbeit Programmierung},
+	howpublished = {\url{https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023}},
+	year		 = {2023},
+	month		 = {05},
+	day			 = {14}
+	}
+	´´´
