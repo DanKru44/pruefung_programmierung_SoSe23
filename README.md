@@ -1,17 +1,19 @@
 # Ausarbeitung Programmierung SoSe 2023
-In diesem Repo befindet sich die Ausarbeitung für die Modulprüfung Programmierung für das Sommersemester 2023. Die einzelnen Teilaufgaben werden dazu im Ordner Chapter in eizelnen .tex Dateien bearbeitet und im Hauptverzeichnis in die Datei main.tex eingefügt. In der Datei test.tex wurden einige Befehle für LaTeX ausprobiert und dient als Hilfestellung für die Erstellung der main.tex mit Beispielen.
+In diesem Repo befindet sich die Ausarbeitung für die Modulprüfung Programmierung für das Sommersemester 2023. Die einzelnen Teilaufgaben werden dazu im Ordner Chapter in einzelnen .tex Dateien bearbeitet und im Hauptverzeichnis in die Datei main.tex eingefügt. 
+
+In der Datei test.tex wurden einige Befehle für LaTeX ausprobiert und dient als Hilfestellung für die Erstellung der main.tex mit Beispielen.
 
 
 ## Kompilation
 Die Datei main.tex lässt sich einfach mit dem paket texlive komilieren. Um das Literaturverzeichnis und das Inhaltsverzeichnis zu generieren müssen mehrere Kompilations-Schritte durchlaufen werden.
 
-1. Zuerst die main.tex kompiliert werden.
+1. Zuerst muss die main.tex mit dem Befehl pdflatex kompiliert werden.
 
 2. Anschließend muss die die Datei main.aux mit dem Befehl Bibtex kompiliert erden.
 
-3. Nun muss erneut die main.tex kompiliert werden.
+3. Nun muss erneut die main.tex mit dem Befehl pdflatex kompiliert werden.
 	
-4. Zuletzt noch einmal die main.tex kompilieren.
+4. Zuletzt noch einmal die main.tex mit dem Befehl pdflatex kompilieren.
 
 Beispiel:
 ```
