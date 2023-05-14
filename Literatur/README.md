@@ -46,6 +46,6 @@ Eine Anleitung zu den Befehlen mit denen in den Aufgaben zitiert werden können.
 	howpublished = {\url{https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023}},
 	year		 = {2023},
 	month		 = {05},
-	day			 = {14}
+	day		 = {14}
 	}
 	```
