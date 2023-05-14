@@ -22,13 +22,13 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 - [x] README.md für die Unterverzeichnise anlegen
 
 - [ ] Schreiben eines Ausatzes von 400 +/-25 Worten.
-	- [ ] Beschreiben was Textsatzbeschreibungssprachen sind
+	- [x] Beschreiben was Textsatzbeschreibungssprachen sind
 	- [ ] Was haben diese mit Programmiersprachen gemein
 	- [ ] Wie unterscheiden sie sich von Programmiersprachen
-	- [ ] Warum sind Textsatzbeschreibungssprachen für größere Projektdokumentationen besser geeignet als integrierte Wordprozessoren wie Word
+	- [x] Warum sind Textsatzbeschreibungssprachen für größere Projektdokumentationen besser geeignet als integrierte Wordprozessoren wie Word
 	- [ ] Begriffe die untergebracht werden sollen: 
 		- [ ] Ghostscript
-		- [ ] Groff
+		- [x] Groff
 		- [ ] Markdown
 		- [x] HTML
 	- [ ] Abbildung für integrierte Wordprozessoren und Beispiel LaTeX vorher nachher einfügen
