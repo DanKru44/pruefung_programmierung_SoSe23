@@ -30,7 +30,8 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 		- [ ] Ghostscript
 		- [ ] Groff
 		- [ ] Markdown
-		- [ ] HTML
+		- [x] HTML
+	- [ ] Abbildung für integrierte Wordprozessoren und Beispiel LaTeX vorher nachher einfügen
 
 ### Bonausaufgabe 
 - [ ] Anschauen des [heirloom-project](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom)
