@@ -32,6 +32,10 @@ Eine Anleitung zu den Befehlen mit denen in den Aufgaben zitiert werden können.
 - Soll eine Quellenangabe mit ins Literaturverzeichnis, die nicht direkt zitiert wurde wird der Befehl nocite benutzt.	
 
 	Beispiel: `\nocite{Name der Quellenangabe in der literatur.bib}`
+	
+	Der nocite Befehl wurde verallgemeinert für alle Quellenangaben in der main.tex untergebracht
+
+	Beispiel: `\nocite{*}`
 
 ## Formate in der .bib Datei
 Überblick über Quellenangaben und deren Formatierung in der .bib Datei
