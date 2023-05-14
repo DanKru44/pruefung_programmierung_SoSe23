@@ -23,13 +23,13 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 
 - [ ] Schreiben eines Ausatzes von 400 +/-25 Worten.
 	- [x] Beschreiben was Textsatzbeschreibungssprachen sind
-	- [ ] Was haben diese mit Programmiersprachen gemein
-	- [ ] Wie unterscheiden sie sich von Programmiersprachen
+	- [x] Was haben diese mit Programmiersprachen gemein
+	- [x] Wie unterscheiden sie sich von Programmiersprachen
 	- [x] Warum sind Textsatzbeschreibungssprachen für größere Projektdokumentationen besser geeignet als integrierte Wordprozessoren wie Word
-	- [ ] Begriffe die untergebracht werden sollen: 
-		- [ ] Ghostscript
+	- [x] Begriffe die untergebracht werden sollen: 
+		- [x] Ghostscript
 		- [x] Groff
-		- [ ] Markdown
+		- [x] Markdown
 		- [x] HTML
 	- [ ] Abbildung für integrierte Wordprozessoren und Beispiel LaTeX vorher nachher einfügen
 
