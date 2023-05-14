@@ -61,7 +61,8 @@ Kleine Teilschritte die nicht direkt mit den Aufgaben zu tun haben, allerdings m
 	- Der Fehler war die Angabe des Datums in .bib Datei. Alle Datums Angaben müssen in seperate Felder für year, month und day eingetragen werden, damit diese richtig formatiert werden.
 - [ ] Datum in die main.tex am Ende der Bearbeitung einfügen
 - [ ] Formatierung der main.tex 
-	- [ ] Fußnote
+	- [ ] Fußzeile 
+	- [ ] Kopfzeile
 	- [ ] Abbiludngsverzeichnis
 	- [ ] Tabellenverzeichnis
 	- [ ] Literaturverzeichnis 
