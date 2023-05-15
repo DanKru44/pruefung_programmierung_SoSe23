@@ -16,24 +16,24 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 - [x] main.tex erstellen
 - [x] README.md anlegen für das Hauptverzeichnis, genaue Beschreibung des Kompiliervorgangs einfügen
 - [x] Ordner Images für das ablegen der Abbildungen anlegen
-- [x] Ordner Chapter für die bearbeitung der einzel Aufgaben anlegen
+- [x] Ordner Chapter für die Bearbeitung der einzelnen Aufgaben anlegen
 - [x] Ordner Style für Formatierungseinstellungen anlegen
 - [x] Ordner Literatur für das erstellen des Quellenverzeichnisses anlegen
-- [x] README.md für die Unterverzeichnise anlegen
+- [x] README.md für die Unterverzeichnisse anlegen
 
 - [ ] Schreiben eines Ausatzes von 400 +/-25 Worten.
 	- [x] Beschreiben was Textsatzbeschreibungssprachen sind
 	- [x] Was haben diese mit Programmiersprachen gemein
 	- [x] Wie unterscheiden sie sich von Programmiersprachen
-	- [x] Warum sind Textsatzbeschreibungssprachen für größere Projektdokumentationen besser geeignet als integrierte Wordprozessoren wie Word
+	- [x] Warum sind Textsatzbeschreibungssprachen für größere Projektdokumentationen besser geeignet als integrierte Wortprozessoren wie Word
 	- [x] Begriffe die untergebracht werden sollen: 
 		- [x] Ghostscript
 		- [x] Groff
 		- [x] Markdown
 		- [x] HTML
-	- [ ] Abbildung für integrierte Wordprozessoren und Beispiel LaTeX vorher nachher einfügen
+	- [ ] Abbildung für integrierte Wortprozessoren und Beispiel LaTeX vorher nachher einfügen
 
-### Bonausaufgabe 
+### Bonusaufgabe 
 - [ ] Anschauen des [heirloom-project](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom)
 - [ ] Aussuchen eines der Programme: Hier Programm eintragen
 - [ ] Kompilieren und Beobachtungen aufschreiben
