@@ -31,7 +31,8 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 		- [x] Groff
 		- [x] Markdown
 		- [x] HTML
-	- [ ] Abbildung für integrierte Wortprozessoren und Beispiel LaTeX vorher nachher einfügen
+	- [x] Abbildung für integrierte Wortprozessoren und Beispiel LaTeX vorher nachher einfügen
+	- [ ] Beschreibung der unterschiede zu Wortprozessoren überarbeiten
 
 ### Bonusaufgabe 
 - [ ] Anschauen des [heirloom-project](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom)
