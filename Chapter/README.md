@@ -34,7 +34,8 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 	- [x] Abbildung für integrierte Wortprozessoren und Beispiel LaTeX vorher nachher einfügen
 	- [ ] Beschreibung der unterschiede zu Wortprozessoren überarbeiten
 
-### Bonusaufgabe 
+### Bonusaufgabe
+- [ ] Beschreibung des Projektes 
 - [ ] Anschauen des [heirloom-project](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom)
 - [ ] Aussuchen eines der Programme: Hier Programm eintragen
 - [ ] Kompilieren und Beobachtungen aufschreiben
