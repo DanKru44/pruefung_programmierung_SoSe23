@@ -63,6 +63,7 @@ Kleine Teilschritte die nicht direkt mit den Aufgaben zu tun haben, allerdings m
 - [ ] Formatierung der main.tex 
 	- [ ] Fußzeile 
 	- [ ] Kopfzeile
+
 	Standarformat für die Fuß- und Kopfzeile verwenden?
 	- [ ] Abbildungsverzeichnis
 	- [ ] Tabellenverzeichnis
