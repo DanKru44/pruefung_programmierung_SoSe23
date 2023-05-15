@@ -65,8 +65,8 @@ Kleine Teilschritte die nicht direkt mit den Aufgaben zu tun haben, allerdings m
 	- [ ] Kopfzeile
 
 	Standarformat für die Fuß- und Kopfzeile verwenden?
-	- [ ] Abbildungsverzeichnis
-	- [ ] Tabellenverzeichnis
+	- [x] Abbildungsverzeichnis
+	- [x] Tabellenverzeichnis
 	- [x] Literaturverzeichnis 
 	- [ ] Begriffsverzeichnis
 - [ ] Vorwort
