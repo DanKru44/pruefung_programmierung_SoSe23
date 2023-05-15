@@ -1,6 +1,6 @@
 \section{Textsatzbeschreibungssprachen}
 Mit dem Begriff \textit{Satz} wird ein technisches Verfahren beschrieben mit dem aus einer Vorlage eine drucktaugliche Form hergestellt wird. Diese können händische, maschinelle oder auch computergestütze Verfahren sein. Ziel des Textsatz ist es ein Dokument \textbf{ästhetisch ansprechend} und \textbf{leicht leserlich} zu formatiern. Dafür werden zum Beispiel Schriftarten und -größe, Zeilenabstände und das Seitenlayout festgelegt. Diese Prinzip wird auch mit \textit{What you see is what you ask for (WYSIWYAF)} umschrieben.
-Es gibt verschiedene Textsatzbeschreibungssprachen. TeX wurde 1978 von Donald E. Knuth entwickelt und LaTeX ist ein von Leslie Lamport für TeX entwickeltes Softwarepaket das \textbf{die Benutzung von TeX vereinfacht}. Für Unix wurde 1990 das Textsatzsystem Groff von James Clark veröffentlicht. Dort wird es genutzt um \textit{manpages}(Bedienungsanleitungen) anzuzeigen. Markdown ist eine weitere Textsatzbeschreinussprache die 2004 von John Gruber und Aaron Schwartz veröffentlicht wurde. Der Grundgedanke bei Markdown ist \textbf{einfach lesbar und schreibbar} zu sein. 1988 wurde die Seitenbeschreibungssprache Ghostcript von Peter Deutsch veröffentlicht. Ghostscript ist ein Interpreter der als als \textit{Programmierschnittstelle} um PostScript und PDF-Inhalte darzustellen und diese drucken zu können. 
+Es gibt verschiedene Textsatzbeschreibungssprachen. TeX wurde 1978 von Donald E. Knuth entwickelt und LaTeX ist ein von Leslie Lamport für TeX entwickeltes Softwarepaket das \textbf{die Benutzung von TeX vereinfacht}. Für Unix wurde 1990 das Textsatzsystem Groff von James Clark veröffentlicht. Dort wird es genutzt um \textit{manpages}(Bedienungsanleitungen) anzuzeigen. Markdown ist ebenfalls eine Textsatzbeschreinussprache die 2004 von John Gruber und Aaron Schwartz veröffentlicht wurde. Der Grundgedanke bei Markdown ist es \textbf{einfach lesbar und schreibbar} zu sein. 1988 wurde die Seitenbeschreibungssprache Ghostcript von Peter Deutsch veröffentlicht. Ghostscript ist ein Interpreter der als \textit{Programmierschnittstelle} dient, um PostScript und PDF-Inhalte darzustellen und diese drucken zu können. 
 
 \section{Vergleich Textsatzbeschreibungssprachen und Programmiersprachen}
 Gemeinsamkeiten zwischen Textsatzbeschreibungssprachen und Programmiersprachen bestehen zu einem darin, dass verwendete Pakete oder bei Programmiersprachen Bibliotheken zu \textbf{beginn der Datei eingebunden werden}. In LateX könnte man den Befehl:
@@ -19,6 +19,22 @@ Befehle wie in einer Art Programmiersprache lassen zudem bestimmte formatierunge
 Unterschiedlich ist allerdings das in Textsatzbeschreibungssprachen der Text auch \textbf{einfach runter geschrieben} werden kann, wo hingegen in Programmiersprachen ein Befehl angegeben werden muss um Text auszugeben.
 
 \section{Unterschiede zu integrierten Wortprozessoren}
-Integrierte Wortprozessoren arbeiten nach dem Prinzip \textit{What you see is what you get (WYSIWYG)}. Dies bedeutet das die Darstellung auf dem Bildschirm in \textbf{Echtzeitdarstellung} stattfindet. Genutzt wird dies z.b. bei \textit{HTML-Editoren} um um Personen mit \textbf{wenig HTML-Kenntnissen} das editieren von Webseiten zu ermöglichen.
-Textsatzbeschreibungssprachen setzen hingegen auf das bereits erwähnte WYSIWYAF-Prinzip. Dabei werden innerhalb des Textes formatierungseinstellungen direkt ausgezeichnet. Dies bedeutet das die Ausgabe sich \textbf{unterscheidet} von dem geschriebenen Text. Dies erfordert allerdings eine \textbf{längere Einarbeitungszeit} als das WYSIWYG-Prinzip.
-Dies bringt aber auch Vorteile mit sich. Textsatzbeschreibungssprachen sind häufig rechnerunabhängig. Im Beispiel für LaTeX heißt dies, es gibt für die meisten Betriebssysteme lauffähige LaTeX Distributionen. Auch eignen sich Textsatzbeschreibungssprachen für das erstellen von größeren Dokumentationen. LaTeX ist darauf ausgelegt gut gestaltete Dokumente mit einheitlicher Formatierung zu gestalten. Die Wiederverwendbarkeit von LaTeX-Vorlagen ist im Punkt Arbeitsgeschwindigkeit sehr gut umgesetzt, dieselass sich auch nachträglich auf Dokumente anwenden.n
+Integrierte Wortprozessoren arbeiten nach dem Prinzip \textit{What you see is what you get (WYSIWYG)}. Dies bedeutet das die Darstellung auf dem Bildschirm in \textbf{Echtzeitdarstellung} stattfindet. Ein Beispiel dafür ist in Abbildung \ref{Wortprozessor} zu sehen. Genutzt wird dies z.b. bei \textit{HTML-Editoren} um um Personen mit \textbf{wenig HTML-Kenntnissen} das editieren von Webseiten zu ermöglichen.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5]{Images/Wortprozessor.png}
+	\caption{Beispiel eines integrierten Wortprozessors in dem Programm Word}
+	\label{Wortprozessor}
+\end{figure}
+
+Textsatzbeschreibungssprachen setzen hingegen auf das bereits erwähnte WYSIWYAF-Prinzip. Dabei werden innerhalb des Textes formatierungseinstellungen ausgezeichnet und sich somit die Ein- und Ausgabe unterscheidet, wie in Abbildung \ref{VergleichLaTeX} zu sehen. Dies erfordert allerdings eine \textbf{längere Einarbeitungszeit} als das WYSIWYG-Prinzip.
+Dies bringt aber auch Vorteile mit sich. Textsatzbeschreibungssprachen sind häufig rechnerunabhängig. Auch eignen sich Textsatzbeschreibungssprachen für das erstellen von größeren Dokumentationen. LaTeX ist darauf ausgelegt gut gestaltete Dokumente mit einheitlicher Formatierung zu gestalten, die auch nachträglich auf Dokumente anwendbar sind. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5]{Images/Vergleich_LaTeX.png}
+	\caption{Beispiel einer Textsatzbeschreibungssprache mit Ein- und Ausgabe von LaTeX}
+	\label{VergleichLaTeX}
+\end{figure}
+
