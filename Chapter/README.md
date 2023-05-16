@@ -35,9 +35,9 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 	- [ ] Beschreibung der unterschiede zu Wortprozessoren überarbeiten
 
 ### Bonusaufgabe
-- [ ] Beschreibung des Projektes 
-- [ ] Anschauen des [heirloom-project](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom)
-- [ ] Aussuchen eines der Programme: Hier Programm eintragen
+- [x] Beschreibung des Projektes 
+- [x] Anschauen des [heirloom-project](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom)
+- [x] Aussuchen eines der Programme: cat
 - [ ] Kompilieren und Beobachtungen aufschreiben
 - [ ] Versuchen den Code Zeile für Zeile zu erklären 
 	- [ ] Mit Abbildungen oder Diagrammen erläutern
