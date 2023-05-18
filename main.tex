@@ -4,6 +4,32 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{natbib}
+\usepackage{listing}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lisdefinestyle{mystyle}{
+	backroundcolor=\color{backcolour},
+	commenstyle=\color{codegreen},
+	keywordstyle=\color{magenta},numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,
+	breaklines=true,
+	captionpos=b,
+	keepspaces=true,
+	numbers=left,
+	showspaces=false,
+	showstringspaces=false,
+	showtabs=false,
+	tabsize=2
+}
+
+\lstset{style=mystyle}
 
 \bibliographystyle{natdin}
 \setcitestyle{authoryear,open={(},close={)}}
@@ -35,3 +61,4 @@
 \bibliography{Literatur/literatur}
 
 \end{document}
+\grid
