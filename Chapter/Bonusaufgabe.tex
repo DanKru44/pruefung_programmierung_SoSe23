@@ -5,6 +5,17 @@ Das heirloom-project wurde 2007 von Gunnar Ritter erstellt und enthält eine Sam
 Der Name des Programms cat leitet sich von dem Wort concatenate ab. Dies bedeutet verketten oder verknüpfen. Daraus lässt sich auch schon schließen wo für dieses Programm gedacht ist. Es dient dazu Dateien zusammenzufügen, also dem verketten von Dateien. Häufig wird es allerdings genutzt um sich den Inhalt von Dateien auf dem Terminal auszugeben. Es wird damit eine Verkettung von Datei und Bildschirm erzielt. Dies eignet sich allerdings nur für kleineren Dateien, da sonst das Terminal schnell unübersichtlich wird. Ein guter Verwendungszweck für dieses Programm ist die Verwendung mit zusätzlichen Operatoren, wie dem \textit{Pipe-Operator} um den Inhalt in andere Dateien umzuleiten.
 
 \subsection{Kompilation und Beobachtungen}
-Der erste Kompilationsversuch wurde mit dem Kompiler clang ausgeführt. Dazu würde folgender Befehl genutzt.
+Der erste Kompilationsversuch wurde mit dem Kompiler clang ausgeführt. Dazu wurde folgender Befehl genutzt.
 
-Allerdings generierte dieser einen Fehler. Dieser ist in Abbildung 
+\begin{lstlisting}
+clang cat.c -o cat.elf
+\end{lstlisting}
+
+Allerdings generierte dieser einen Fehler. Dieser ist in Abbildung \ref{clang_cat.c_fehler} zusehen. Es fehlt eine Bibliotheksdatei namens sfile.h .
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5]{Images/1_clang_cat.c.png}
+	\caption{Fehlermeldung beim Versuch die Datei cat.c zu kompilieren}
+	\label{clang_cat.c_fehler}
+\end{figure}
