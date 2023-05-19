@@ -70,9 +70,9 @@ Kleine Teilschritte die nicht direkt mit den Aufgaben zu tun haben, allerdings m
 	- [x] Literaturverzeichnis 
 	- [ ] Begriffsverzeichnis
 - [ ] Vorwort
-- [ ] Stil Absätze in den Style Ordner umlagern
-	- [ ] Bilbliographystyle
-	- [ ] listingsstyle
+- [x] Stil Absätze in den Style Ordner umlagern
+	- [x] Bilbliographystyle
+	- [x] listingsstyle
 
 ## Links
 Hier sind einige nützliche Links enthalten zur Bearbeitung von .tex Dateien , .md Dateien, usw. 
