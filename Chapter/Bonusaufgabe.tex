@@ -24,14 +24,28 @@ In einem weiteren Versuch wurde versucht mit gcc zu kompilieren, allerdings füh
 
 \section{Die Datei cat.1}
 
+
+
 \section{Der Programmcode von cat.c}
 In diesem Abschnitt wird der Code des Programms cat.c Zeile für Zeile durchgegangen, um nachzuvollziehen was dort geschieht. Dabei wird der Einleitende Kommentar von Gunnar Ritter übersprungen. Dort findet man Copyright Aussagen und Benutzungsrechte.
 
-\subsection{Die Versionsabfrage von Gnuc}
-Zu beginn des Codes findet man eine Versionsabfrage von \textit{GNUC}. Diese soll feststellen welche Version des Compilers GNUC auf dem Gerät installiert oder ob dieser überhaupt installiert ist. Ist dieser in der Version höher oder gleich 3 \textbf{und} \textit{GNUC\_minor} höher oder gleich 4, wird der Variable USED über die \textit{Attribut Spezfikation} used zugewiesen.
+\subsection{Die Versionsabfrage von Gnuc und schreiben der Flaggen}
+Zu beginn des Codes findet man eine Versionsabfrage von \textit{GNUC} mittels einer if Kontrollstruktur. Diese soll feststellen welche Version des Compilers GNUC auf dem Gerät installiert oder ob dieser überhaupt installiert ist. Ist dieser in der Version höher oder gleich 3 \textbf{und} \textit{GNUC\_minor} höher oder gleich 4, wird der Variable USED über die \textit{Attribut Spezfikation} used zugewiesen. Dies geschieht auch wenn GNUC un der Version gleich 4 oder höher installiert ist, wenn die beiden voherigen Bedingungen nicht erfüllt sind.
 
 \begin{lstlisting}
 #define USED	__attribute__ ((used))
 \end{lstlisting}
 
+Sind diese Bedingungen nicht erfüllt, aber GNUC ist trotzdem installiert, wird der Variable USED das Attribut unused zugewiesen.
 
+\begin{lstlisting}
+#define USED	__attribute__ ((unused))
+\end{lstlisting}
+
+Ist GNUC überhaupt nicht installiert wird der Variable USED nichts zugewiesen. Sie wird aber initialisiert.
+
+\begin{lstlisting}
+#define USED
+\end{lstlisting}
+
+Im Anschluss an die if-Schleife wird der Variable USED ein array zugewiesen namens sccsid. Dies geschieht nur wenn der Variable USED auch das Attribut used zugewiesen wurde. In dieses Array werden die, nach der Eingabe von cat im Terminal, genutzten Flaggen aus der Datei cat.1, auf die bereits im vorherigen Abschnitt eingegangen wurde, geschrieben.
