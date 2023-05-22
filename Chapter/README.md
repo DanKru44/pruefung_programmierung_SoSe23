@@ -21,7 +21,7 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 - [x] Ordner Literatur für das erstellen des Quellenverzeichnisses anlegen
 - [x] README.md für die Unterverzeichnisse anlegen
 
-- [ ] Schreiben eines Ausatzes von 400 +/-25 Worten.
+- [x] Schreiben eines Ausatzes von 400 +/-25 Worten.
 	- [x] Beschreiben was Textsatzbeschreibungssprachen sind
 	- [x] Was haben diese mit Programmiersprachen gemein
 	- [x] Wie unterscheiden sie sich von Programmiersprachen
