@@ -32,7 +32,6 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 		- [x] Markdown
 		- [x] HTML
 	- [x] Abbildung für integrierte Wortprozessoren und Beispiel LaTeX vorher nachher einfügen
-	- [ ] Beschreibung der unterschiede zu Wortprozessoren überarbeiten
 
 ### Bonusaufgabe
 - [x] Beschreibung des Projektes 
