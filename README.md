@@ -46,7 +46,42 @@ Umfangreichere Informationen zu den Teilaufgaben befinden sich in der README.md 
 
 ### [ ] Aufgabe 1
 - Erstellen des Repos, der main.tex, README.md und der Ordner für das Repo der Ausarbeitung.
-- Ein Aufsatz (400 +/-25 Wörter) über Textsatzbeschreibungssprachen.
+- Einen Aufsatz (400 +/-25 Wörter) über Textsatzbeschreibungssprachen.
+
+### [ ] Aufgabe 2
+- Einen Aufsatz schreiben über ein faszinierendes Detail aus dem Zusammenspiel von C und dem Betriebssystem (300 +/- 15 Worten)
+
+### [ ] Aufgabe 3
+- Beschreibung des Konzept von Datentypen (300 +/- 15 Worten)
+
+### [ ] Aufgabe 4
+- Ein C Programm das über getopt ein Datum als Parameter entgegennimmt und in die Kommandozeile ausgibt um welchen Wochentag es sich handelt.
+- [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_4_getopt)
+
+### [ ] Aufgabe 5
+- Schreiben einer Library für den Umgang mit Komplexen Zahlen
+- [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_5_librarys)
+
+### [ ] Aufgabe 6
+- Beschreibung des Begriffs Pointerarithmetik
+
+### [ ] Aufgabe 7
+- Beschreibung von Streams und was diese mit Posix zu tuen haben
+
+### [ ] Aufgabe 8
+- Erstellen einer .csv,  einlesen der Daten und Ausgabe der Werte in das Terminal
+- [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_8_csv)#
+
+### [ ] Aufgabe 9
+- Beschreiben und Implementieren eines Algorithmus zum bestimmen der Samplingrate einer Sinusspannung
+- Beschreiben und Implementieren eines Algorithmus zum bestimmen der Frequenz einer Sinusspannung 
+- Beschreiben wie die Frequenz einer Rechteckspannung bestimmt werden kann
+- [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_9_algorithmen)
+
+### [ ] Aufgabe 10
+- Beschreiben was das X11-Protokoll ist 
+- Programmieren eines C-Programms dass einen Fenster öffnet 
+- [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_10_gui)
 
 ### [ ] Bonusaufgabe 
 - Auswahl eines Programmes aus dem Repo [heirloom-project](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom).
