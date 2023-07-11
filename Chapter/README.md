@@ -32,6 +32,77 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 		- [x] Markdown
 		- [x] HTML
 	- [x] Abbildung für integrierte Wortprozessoren und Beispiel LaTeX vorher nachher einfügen
+- [ ] Überarbeiten des Satzbaus,...
+
+### Aufgabe 2
+- [ ] Aussuchen eines Details aus Zusammenspiel von C und dem Betriebssystem
+- [ ] Schreiben eines Aufsatzes über dieses Detail von 300 +/- 15 Worten
+
+### Aufgabe 3
+- [ ] Beschreibung des Konzeptes von Datentypen von 300 +/- 15 Worten
+	- [ ] Was sind diese im Allgemeinen ?
+	- [ ] Was sind diese am speziellen Beispiel von C ?
+	- [ ] Welche Rolle spielen nutzerdefinierte Typen wie structs ?
+	- [ ] Was macht das Keyword typedef ?
+
+- [ ] Schreiben eines structs das die Merkmale einer Oszilloskopkurve mit Metadaten, einem Kanal und einer begrenzten Länge darstellt 
+
+### Aufgabe 4
+- [ ] Schreiben eines Programmes das mittels getopt ein Datum YYYY-MM-DD als Parameter entgegen nimmt und in die Kommandozeile ausgibt um welchen Wochentag es sich handelt
+	- [ ] Definitionsbereich YYYY-MM-DD > 2024-01-01
+	- [ ] Erweitern um den Definitionsbereich 1900-01-01 < YYYY-MM-DD < heute 
+
+- [ ] Erklären wie das Programm erweiter werden müsste um all Daten bis 0000-01-01 abbilden zu können
+
+### Aufgabe 5
+- [ ] Schreiben einer Library für den Umgang mit komplexen Zahlen
+	- [ ] Die Library soll die Datentypen COMP_int und COMP_float enthalten
+	- [ ] Eine Funktion die, die 2-Norm des Datenobjektes COMP_int bestimmt
+	- [ ] Eine Funktion die, die 2-Norm des Datenobjektes COMP_float bestimmt
+	- [ ] Eine Funktion zum addieren zweier COMP_ Elemente 
+	- [ ] Eine Funktion zum printen der COMP_Elemente in Eulerform
+
+### Aufgabe 6
+- [ ] Erklärung des Begriffs Pointerarithmetik von 300 +/- 15 Worten
+	- [ ] Was ist ein Pointer?
+	- [ ] Welchen Typ haben Pointer
+	- [ ] Was versteht man unter dem Begriff Pointerarithmetik
+	- [ ] Wie kann die Pointerarithmetik helfen Collections von Datenobjekten zu verarbeiten
+
+- [ ] Schreiben eines einfachen Programmes zur Nutzung der Pointerarithmetik 
+
+- [ ] visualisieren des Programms mit einem Speicherdiagramm
+
+### Aufgabe 7 
+- [ ] Erklärung zu Streams von 300 +/- 15 Wörtern
+	- [ ] Was sind Streams?
+	- [ ] Was haben sie mit POSIX zu tuen?
+
+- [ ] Schreiben eines Beispiel Programms 
+	- [ ] Aus einem Stream lesen
+	- [ ] In einen Stream schreiben
+
+### Aufgabe 8
+- [ ] Schreiben eines Programms das eine .csv Datei verarbeitet
+	- [ ] Erstellen einer .csv Datei mit beliebigem Inhalt. Drei Spalten + drei Zeilen zzgl. Kopfzeile
+	- [ ] Nutzen der Library libcsv um die Datei einzulesen und in beliebigen Format in das Termial zu printen
+
+### Aufgabe 9
+In diesem [Repo](https://gitlab.thga.de/programmierung2023/example-oszi-data) befinden sich drei Oszilloskop aufnahmen von Wechselspannungen. Davon sind zwei Sinusspannungen und eine Rechteckspannung. 
+
+- [ ] Beschreibung eines Algorithmus zum herausfinden der Samplingrate bei bekannter Frequenz
+	- [ ] Implementieren des Algorithmus und herausfinden der Samplingrate der 50Hz Sinusaufnahme
+
+- [ ] Beschreiben eines Algorithmus zum herausfinden der Frequenz bei bekannter Samplingrate
+	- [ ] Implementieren des Algorithmus und herausfinden der Samplingrate der unbekannten Sinusaufnahme
+
+- [ ] Beschreiben eines Algorithmus mit dem man die Frequenz der Aufgenommenen Rechteckspannung bestimmen kann
+
+### Aufgabe 10 
+- [ ] Erklären welche Aufgabe das X11-Protokoll hat von 200 +/- 10 Worten
+	- [ ] Warum spricht man hier von einem Server und einem Client?
+
+- [ ] Programmieren eines Fensters 
 
 ### Bonusaufgabe
 - [x] Beschreibung des Projektes 
