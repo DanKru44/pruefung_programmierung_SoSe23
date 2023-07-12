@@ -45,7 +45,7 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 	- [ ] Welche Rolle spielen nutzerdefinierte Typen wie structs ?
 	- [ ] Was macht das Keyword typedef ?
 
-- [ ] Schreiben eines structs das die Merkmale einer Oszilloskopkurve mit Metadaten, einem Kanal und einer begrenzten Länge darstellt 
+- [x] Schreiben eines structs das die Merkmale einer Oszilloskopkurve mit Metadaten, einem Kanal und einer begrenzten Länge darstellt 
 
 [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_3_struct)
 
