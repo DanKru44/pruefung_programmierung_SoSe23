@@ -53,6 +53,8 @@ Umfangreichere Informationen zu den Teilaufgaben befinden sich in der README.md 
 
 ### [ ] Aufgabe 3
 - Beschreibung des Konzept von Datentypen (300 +/- 15 Worten)
+- Schreiben eines struct zur repräsentation einer Oszilloskopkurve
+- [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_3_struct)
 
 ### [ ] Aufgabe 4
 - Ein C Programm das über getopt ein Datum als Parameter entgegennimmt und in die Kommandozeile ausgibt um welchen Wochentag es sich handelt.
@@ -64,9 +66,13 @@ Umfangreichere Informationen zu den Teilaufgaben befinden sich in der README.md 
 
 ### [ ] Aufgabe 6
 - Beschreibung des Begriffs Pointerarithmetik
+- Ein Programm erstellen das die Nutzung von Pointerarithmetik exemplarishc darstellt
+- [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_6_pointer)
 
 ### [ ] Aufgabe 7
 - Beschreibung von Streams und was diese mit Posix zu tuen haben
+- Schreiben eines einfache Beispiels zum lesen und schreiben aus einem Stream
+ - [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_7_streams)
 
 ### [ ] Aufgabe 8
 - Erstellen einer .csv,  einlesen der Daten und Ausgabe der Werte in das Terminal
