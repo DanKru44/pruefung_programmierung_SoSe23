@@ -116,7 +116,7 @@ In diesem [Repo](https://gitlab.thga.de/programmierung2023/example-oszi-data) be
 - [ ] Erklären welche Aufgabe das X11-Protokoll hat von 200 +/- 10 Worten
 	- [ ] Warum spricht man hier von einem Server und einem Client?
 
-- [ ] Programmieren eines Fensters #
+- [x] Programmieren eines Fensters 
 
 [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_10_gui)
 
