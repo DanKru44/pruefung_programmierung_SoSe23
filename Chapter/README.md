@@ -50,9 +50,9 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_3_struct)
 
 ### Aufgabe 4
-- [ ] Schreiben eines Programmes das mittels getopt ein Datum YYYY-MM-DD als Parameter entgegen nimmt und in die Kommandozeile ausgibt um welchen Wochentag es sich handelt
-	- [ ] Definitionsbereich YYYY-MM-DD > 2024-01-01
-	- [ ] Erweitern um den Definitionsbereich 1900-01-01 < YYYY-MM-DD < heute 
+- [x] Schreiben eines Programmes das mittels getopt ein Datum YYYY-MM-DD als Parameter entgegen nimmt und in die Kommandozeile ausgibt um welchen Wochentag es sich handelt
+	- [x] Definitionsbereich YYYY-MM-DD > 2024-01-01
+	- [x] Erweitern um den Definitionsbereich 1900-01-01 < YYYY-MM-DD < heute 
 
 - [ ] Erklären wie das Programm erweiter werden müsste um all Daten bis 0000-01-01 abbilden zu können
 
