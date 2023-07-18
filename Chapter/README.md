@@ -75,7 +75,7 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 	- [ ] Was versteht man unter dem Begriff Pointerarithmetik
 	- [ ] Wie kann die Pointerarithmetik helfen Collections von Datenobjekten zu verarbeiten
 
-- [ ] Schreiben eines einfachen Programmes zur Nutzung der Pointerarithmetik 
+- [x] Schreiben eines einfachen Programmes zur Nutzung der Pointerarithmetik 
 
 - [ ] visualisieren des Programms mit einem Speicherdiagramm
 
