@@ -60,9 +60,9 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 
 ### Aufgabe 5
 - [ ] Schreiben einer Library für den Umgang mit komplexen Zahlen
-	- [ ] Die Library soll die Datentypen COMP_int und COMP_float enthalten
-	- [ ] Eine Funktion die, die 2-Norm des Datenobjektes COMP_int bestimmt
-	- [ ] Eine Funktion die, die 2-Norm des Datenobjektes COMP_float bestimmt
+	- [x] Die Library soll die Datentypen COMP_int und COMP_float enthalten
+	- [x] Eine Funktion die, die 2-Norm des Datenobjektes COMP_int bestimmt
+	- [x] Eine Funktion die, die 2-Norm des Datenobjektes COMP_float bestimmt
 	- [ ] Eine Funktion zum addieren zweier COMP_ Elemente 
 	- [ ] Eine Funktion zum printen der COMP_Elemente in Eulerform
 
