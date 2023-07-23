@@ -69,7 +69,7 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 optional:
 - [ ] Funktion zur Ausgabe der komplexen Zahlen in kartesischer Form unter beachtung der rechenzeichen
 
-[Repos](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_5_librarys)
+[Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_5_librarys)
 
 ### Aufgabe 6
 - [ ] Erklärung des Begriffs Pointerarithmetik von 300 +/- 15 Worten
