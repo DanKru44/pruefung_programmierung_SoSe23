@@ -78,7 +78,10 @@ optional:
 	- [ ] Was versteht man unter dem Begriff Pointerarithmetik
 	- [ ] Wie kann die Pointerarithmetik helfen Collections von Datenobjekten zu verarbeiten
 
-- [x] Schreiben eines einfachen Programmes zur Nutzung der Pointerarithmetik 
+- [ ] Schreiben eines einfachen Programmes zur Nutzung der Pointerarithmetik 
+	- [x] Zeiger auf einen einfachen Datentypen
+	- [x] Zeiger im Zusammenspiel mit Arrays
+	- [ ] Beispiel für die Adressierung von structs einfügen
 
 - [ ] visualisieren des Programms mit einem Speicherdiagramm
 
