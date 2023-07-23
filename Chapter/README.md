@@ -67,7 +67,7 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 	- [x] Eine Funktion zum printen der COMP_Elemente in Eulerform
 
 optional:
-- [ ] Funktion zur Ausgabe der komplexen Zahlen in kartesischer Form unter beachtung der rechenzeichen
+- [ ] Funktion zur Ausgabe der komplexen Zahlen in kartesischer Form unter Beachtung der rechenzeichen
 
 [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_5_librarys)
 
@@ -78,10 +78,10 @@ optional:
 	- [ ] Was versteht man unter dem Begriff Pointerarithmetik
 	- [ ] Wie kann die Pointerarithmetik helfen Collections von Datenobjekten zu verarbeiten
 
-- [ ] Schreiben eines einfachen Programmes zur Nutzung der Pointerarithmetik 
+- [x] Schreiben eines einfachen Programmes zur Nutzung der Pointerarithmetik 
 	- [x] Zeiger auf einen einfachen Datentypen
 	- [x] Zeiger im Zusammenspiel mit Arrays
-	- [ ] Beispiel für die Adressierung von structs einfügen
+	- [x] Beispiel für die Adressierung von structs einfügen
 
 - [ ] visualisieren des Programms mit einem Speicherdiagramm
 
