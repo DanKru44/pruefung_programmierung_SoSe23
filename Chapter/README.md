@@ -59,12 +59,15 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_4_getopt)
 
 ### Aufgabe 5
-- [ ] Schreiben einer Library für den Umgang mit komplexen Zahlen
+- [x] Schreiben einer Library für den Umgang mit komplexen Zahlen
 	- [x] Die Library soll die Datentypen COMP_int und COMP_float enthalten
 	- [x] Eine Funktion die, die 2-Norm des Datenobjektes COMP_int bestimmt
 	- [x] Eine Funktion die, die 2-Norm des Datenobjektes COMP_float bestimmt
-	- [ ] Eine Funktion zum addieren zweier COMP_ Elemente 
-	- [ ] Eine Funktion zum printen der COMP_Elemente in Eulerform
+	- [x] Eine Funktion zum addieren zweier COMP_ Elemente 
+	- [x] Eine Funktion zum printen der COMP_Elemente in Eulerform
+
+optional:
+- [ ] Funktion zur Ausgabe der komplexen Zahlen in kartesischer Form unter beachtung der rechenzeichen
 
 [Repos](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_5_librarys)
 
