@@ -92,9 +92,9 @@ optional:
 	- [ ] Was sind Streams?
 	- [ ] Was haben sie mit POSIX zu tuen?
 
-- [ ] Schreiben eines Beispiel Programms 
-	- [ ] Aus einem Stream lesen
-	- [ ] In einen Stream schreiben
+- [x] Schreiben eines Beispiel Programms 
+	- [x] Aus einem Stream lesen
+	- [x] In einen Stream schreiben
 
 [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_7_streams)
 
