@@ -35,8 +35,8 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 - [ ] Überarbeiten des Satzbaus,...
 
 ### Aufgabe 2
-- [ ] Aussuchen eines Details aus Zusammenspiel von C und dem Betriebssystem (Speicherreservierung)
-- [ ] Schreiben eines Aufsatzes über dieses Detail von 300 +/- 15 Worten
+- [x] Aussuchen eines Details aus Zusammenspiel von C und dem Betriebssystem (Speicherreservierung)
+- [x] Schreiben eines Aufsatzes über dieses Detail von 300 +/- 15 Worten
 
 ### Aufgabe 3
 - [ ] Beschreibung des Konzeptes von Datentypen von 300 +/- 15 Worten
