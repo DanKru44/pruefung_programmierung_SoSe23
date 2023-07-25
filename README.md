@@ -48,7 +48,7 @@ Umfangreichere Informationen zu den Teilaufgaben befinden sich in der README.md 
 - Erstellen des Repos, der main.tex, README.md und der Ordner für das Repo der Ausarbeitung.
 - Einen Aufsatz (400 +/-25 Wörter) über Textsatzbeschreibungssprachen.
 
-### [ ] Aufgabe 2
+### [x] Aufgabe 2
 - Einen Aufsatz schreiben über ein faszinierendes Detail aus dem Zusammenspiel von C und dem Betriebssystem (300 +/- 15 Worten)
 
 ### [ ] Aufgabe 3
