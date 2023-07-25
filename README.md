@@ -51,7 +51,7 @@ Umfangreichere Informationen zu den Teilaufgaben befinden sich in der README.md 
 ### [x] Aufgabe 2
 - Einen Aufsatz schreiben über ein faszinierendes Detail aus dem Zusammenspiel von C und dem Betriebssystem (300 +/- 15 Worten)
 
-### [ ] Aufgabe 3
+### [x] Aufgabe 3
 - Beschreibung des Konzept von Datentypen (300 +/- 15 Worten)
 - Schreiben eines struct zur repräsentation einer Oszilloskopkurve
 - [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_3_struct)
