@@ -39,11 +39,11 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 - [x] Schreiben eines Aufsatzes über dieses Detail von 300 +/- 15 Worten
 
 ### Aufgabe 3
-- [ ] Beschreibung des Konzeptes von Datentypen von 300 +/- 15 Worten
-	- [ ] Was sind diese im Allgemeinen ?
-	- [ ] Was sind diese am speziellen Beispiel von C ?
-	- [ ] Welche Rolle spielen nutzerdefinierte Typen wie structs ?
-	- [ ] Was macht das Keyword typedef ?
+- [x] Beschreibung des Konzeptes von Datentypen von 300 +/- 15 Worten
+	- [x] Was sind diese im Allgemeinen ?
+	- [x] Was sind diese am speziellen Beispiel von C ?
+	- [x] Welche Rolle spielen nutzerdefinierte Typen wie structs ?
+	- [x] Was macht das Keyword typedef ?
 
 - [x] Schreiben eines structs das die Merkmale einer Oszilloskopkurve mit Metadaten, einem Kanal und einer begrenzten Länge darstellt 
 
