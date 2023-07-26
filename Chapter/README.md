@@ -119,8 +119,8 @@ In diesem [Repo](https://gitlab.thga.de/programmierung2023/example-oszi-data) be
 [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_9_algorithmen)
 
 ### Aufgabe 10 
-- [ ] Erklären welche Aufgabe das X11-Protokoll hat von 200 +/- 10 Worten
-	- [ ] Warum spricht man hier von einem Server und einem Client?
+- [x] Erklären welche Aufgabe das X11-Protokoll hat von 200 +/- 10 Worten
+	- [x] Warum spricht man hier von einem Server und einem Client?
 
 - [x] Programmieren eines Fensters 
 
