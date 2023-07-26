@@ -44,7 +44,7 @@ Enthält die BibTeX-Datei aus der das Quellenverzeichnis erstellt wurde und Erkl
 Kurze Zusammenfassungen der Teilaufgaben der Ausarbeitung.
 Umfangreichere Informationen zu den Teilaufgaben befinden sich in der README.md des Ordners Chapter.
 
-### [ ] Aufgabe 1
+### [x] Aufgabe 1
 - Erstellen des Repos, der main.tex, README.md und der Ordner für das Repo der Ausarbeitung.
 - Einen Aufsatz (400 +/-25 Wörter) über Textsatzbeschreibungssprachen.
 
@@ -60,7 +60,7 @@ Umfangreichere Informationen zu den Teilaufgaben befinden sich in der README.md 
 - Ein C Programm das über getopt ein Datum als Parameter entgegennimmt und in die Kommandozeile ausgibt um welchen Wochentag es sich handelt.
 - [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_4_getopt)
 
-### [ ] Aufgabe 5
+### [x] Aufgabe 5
 - Schreiben einer Library für den Umgang mit Komplexen Zahlen
 - [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_5_librarys)
 
