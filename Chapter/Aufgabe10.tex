@@ -1,0 +1,21 @@
+\chapter{Aufgabe 10}
+\section{Das X11-Protokoll}
+Das \textit{Grafiksubsystem} für \texti{UNIX-Systeme} nennt sich X11 oder \textit{X Window System}.
+Diese gibt es allerdings auch für andere Systeme wie Windows oder OS/2.
+Die X.Org ist dabei für die Entwicklung der X Window System Standards und Spezifikationen verantwortlich.
+Somit ist das X11-Protokoll standardisiert und ein X11-Server unter Windows kann auch von X11-Clients unter Linux genutzt werden.
+X11 besitzt eine Client/Server-Architektur.\par
+Der X11-Server stellt dabei Grafikfunktionen über seinen Serverdienst zur Verfügung.
+Er wird auch Display-Server genannt.
+Der X11-Server läuft lokal auf dem Rechner und verwaltet die Grafik-Hardware.
+Die Dienstleistungen können zum Beispiel die Ausgabe von Textzeichen im Grafikmodus sein.
+Ebenfalls kümmert sich der X-Server um die Eingabe über Peripherie wie Maus oder Tastatur.\par
+Der X11-Client sind Anwendungen.
+Diese nutzen die Dienstleistungen des X11-Server zur graphischen Ausgabe. \par
+Somit reagiert der X11-Server auf eine Anfrage des X11-Client zur Nutzung einer seiner Dienstleistungen und stellt diese zur Verfügung.
+Der X11-Client nutzt dann diese Dienstleistungen. \par
+Das X11-Protokoll funktioniert aber nicht nur lokal.
+Es kann auch über ein TCP/IP-Netzwerk genutzt werden.
+Auf einem Server kann somit eine X11-Client laufen der von anderen Arbeitsplätzen auf denen dann der X11-Server läuft genutzt werden.\par
+Das X11-Protokoll regelt dabei die Kommunikation zwischen Client und Server\cite{xwindow:2023}\cite{x11:2012}.
+
