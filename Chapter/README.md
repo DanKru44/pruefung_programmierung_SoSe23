@@ -32,7 +32,7 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 		- [x] Markdown
 		- [x] HTML
 	- [x] Abbildung für integrierte Wortprozessoren und Beispiel LaTeX vorher nachher einfügen
-- [ ] Überarbeiten des Satzbaus,...
+- [x] Überarbeiten des Satzbaus,...
 
 ### Aufgabe 2
 - [x] Aussuchen eines Details aus Zusammenspiel von C und dem Betriebssystem (Speicherreservierung)
