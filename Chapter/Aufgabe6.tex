@@ -1,0 +1,33 @@
+\chapter{Aufgabe 6}
+\section{Pointer}
+\textit{Pointer} oder auch auf deutsch \textit{Zeiger}, sind eigene Datentypen in der Programmiersprache C.
+Zeiger enthalten die Adressen von Speicherbereichen und bildet somit eine Brücke zur Hardware.
+Durch diese ist ein direkter Zugriff auf diese Speicherbereiche möglich und somit auch das manipulieren der Daten in diesem Bereich.\par
+Jeder Datentyp in C hat einen dazugehörigen Zeigertyp\cite{bökelmann:2023}.\par
+
+\begin{lstlisting}
+int a = 23 ;
+int* zeiger_a = &a ;
+float b = 53.42 ;
+float* zeiger_b = &b ;
+char c = 'z' ;
+char* zeiger_c = &c ;
+\end{lstlisting}
+
+Wie in dem Beispiel zu sehen ist gibt es für jeden Datentyp einen dazugehörigen Zeigertyp.
+Der Zeiger wird dabei mit dem & Operator und dem Variablennamen initialisiert.
+Er erhält somit den Speicherbereich in dem sich diese Variable befindet und nicht den direkten Wert den diese Variable besitzt.\par
+Die Zeiger können auch Funktionen übergeben werden.
+Somit wird beim Aufruf keine Kopie der Werte der Variablen erstellt, sonder die Funktion kann direkt mit den Speicherbereichen arbeiten und sich dort befindliche Werte manipulieren.
+Dies führt zu effizienteren Code und spart durch das wegfallen der Kopien Speicher ein.
+Dies kann besonders wichtig auf \textit{freestanding} Implementierungen, wie Mikrocontroller, werden.\cite{bökelmann:2023}\par
+
+\section{Pointerarithmetik}
+Unter dem Begriff \textit{Pointerarithmetik} oder \textit{Zeigerarithmetik} versteht man das Addieren oder Subtrahieren auf Zeigerwerte.
+Dies ermöglicht es auf Teile des Speichers zuzugreifen die in der Nähe des Zeigerwertes liegen.
+Dies kann hilfreich dabei sein durch ein Array zu navigieren, da der Zeiger beim Initialisieren die Speicheradresse des ersten Wertes des Arrays erhält.
+Um sich durch das Array zu bewegen wird also eine Veränderung des Zeigerwertes benötigt um die weiteren Speicherbereiche zu erreichen.\par
+Allerdings muss dies mit Vorsicht behandelt werden.
+Durch unvorsichtige Operationen kann unbeabsichtigt auf Speicherbereiche zugegriffen werden, die nicht für dieses Programm reserviert sind.
+Dies kann zu Fehlern und Sicherheitsproblemen führen\cite{bökelmann:2023}.
+
