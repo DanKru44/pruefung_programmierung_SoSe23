@@ -72,11 +72,11 @@ optional:
 [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_5_librarys)
 
 ### Aufgabe 6
-- [ ] Erklärung des Begriffs Pointerarithmetik von 300 +/- 15 Worten
-	- [ ] Was ist ein Pointer?
-	- [ ] Welchen Typ haben Pointer
-	- [ ] Was versteht man unter dem Begriff Pointerarithmetik
-	- [ ] Wie kann die Pointerarithmetik helfen Collections von Datenobjekten zu verarbeiten
+- [x] Erklärung des Begriffs Pointerarithmetik von 300 +/- 15 Worten
+	- [x] Was ist ein Pointer?
+	- [x] Welchen Typ haben Pointer
+	- [x] Was versteht man unter dem Begriff Pointerarithmetik
+	- [x] Wie kann die Pointerarithmetik helfen Collections von Datenobjekten zu verarbeiten
 
 - [x] Schreiben eines einfachen Programmes zur Nutzung der Pointerarithmetik 
 	- [x] Zeiger auf einen einfachen Datentypen
