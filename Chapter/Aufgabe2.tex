@@ -11,9 +11,9 @@ Dieser wird nach dem Ende eines \textit{Scopes} automatisch destruiert.
 Der Heap erlaubt es Speicher während der Laufzeit des Programms zu reservieren und freizugeben und wird vom Entwickler verwaltet.
 Dies kann die Effizienz und Flexibilität des C-Programms erhöhen.
 Dort liegt allerdings auch die Gefahr.
-Der Speicher wird nicht beim Verlassen des Scopes automatisch freigegeben.
+Der Speicher wird nicht beim Verlassen des Scopes automatisch freigegeben\cite{boekelmann:2023}.
 Dies muss durch der Entwickler implementieren um Speicherlecks zu vermeiden. \par
-Der Stack und der Heap werden gegeneinander zulaufend angelegt wie in Abbildung \ref{stackandheap} zu sehen ist.\cite{bökelmann:2023} \par
+Der Stack und der Heap werden gegeneinander zulaufend angelegt wie in Abbildung \ref{stackandheap} zu sehen ist. \par 
 
 \begin{figure}[h]
 	\centering
@@ -28,5 +28,5 @@ Fordert ein C-Programm Speicher bei dem Betriebssystem an, interagiert diese mit
 Gibt das Programm den Speicher wieder frei, kann das Betriebssystem diesen recyclen und für andere Prozesse verwenden\cite{stackandheap:2022}. \par
 Die Möglichkeit des Speicherzugriffs kann allerdings auch zu Sicherheitsproblemen führen.
 Sicherheitslücken können entstehen wenn zum Beispiel mit Zeigern unvorsichtig umgegangen wird, die zu Pufferüberläufen führen.
-Dies sollte vermieden werden und um Sicherheitsrisiken und potentielle Fehler zu minimieren\cite{bökelmann:2023}.
+Dies sollte vermieden werden und um Sicherheitsrisiken und potentielle Fehler zu minimieren\cite{boekelmann:2023}.
 
