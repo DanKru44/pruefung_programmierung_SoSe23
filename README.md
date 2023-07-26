@@ -56,7 +56,7 @@ Umfangreichere Informationen zu den Teilaufgaben befinden sich in der README.md 
 - Schreiben eines struct zur repräsentation einer Oszilloskopkurve
 - [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_3_struct)
 
-### [ ] Aufgabe 4
+### [x] Aufgabe 4
 - Ein C Programm das über getopt ein Datum als Parameter entgegennimmt und in die Kommandozeile ausgibt um welchen Wochentag es sich handelt.
 - [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_4_getopt)
 
