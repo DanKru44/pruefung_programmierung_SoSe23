@@ -54,7 +54,7 @@ Hier finden sich die Aufgabenstellungen der einzelnen Teilaufgaben der Ausarbeit
 	- [x] Definitionsbereich YYYY-MM-DD > 2024-01-01
 	- [x] Erweitern um den Definitionsbereich 1900-01-01 < YYYY-MM-DD < heute 
 
-- [ ] Erklären wie das Programm erweiter werden müsste um all Daten bis 0000-01-01 abbilden zu können
+- [x] Erklären wie das Programm erweitert werden müsste um alle Daten bis 0000-01-01 abbilden zu können
 
 [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_4_getopt)
 
