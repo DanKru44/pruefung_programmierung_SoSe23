@@ -2,7 +2,7 @@
 In diesem Ordner befinden sich Formatierungseinstellungen die zum lösen der Aufgaben für die Ausarbeitung verwendet werden.
 
 ## Zitierstil
-Der gewählte Zitierstil ist Autor, anschließend folgt  das Jahr in Klammern.
+Der gewählte Zitierstil ist super. Dabei wird im Text eine hochgestellt Zahl angezeigt, die mit der enstprechenden Quellenangabe verlinkt ist.
 
 ## Stil des Literaturverzeichnisses
 Der Stil des Literaturverzeichnisses ist natdin. Dieser entspricht der Din zum richtigen zitieren.
