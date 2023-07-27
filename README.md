@@ -84,7 +84,7 @@ Umfangreichere Informationen zu den Teilaufgaben befinden sich in der README.md 
 - Beschreiben wie die Frequenz einer Rechteckspannung bestimmt werden kann
 - [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_9_algorithmen)
 
-### [ ] Aufgabe 10
+### [x] Aufgabe 10
 - Beschreiben was das X11-Protokoll ist 
 - Programmieren eines C-Programms dass einen Fenster öffnet 
 - [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_10_gui)
