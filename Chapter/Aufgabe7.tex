@@ -1,0 +1,35 @@
+\chapter{Aufgabe 7}
+\section{POSIX und Streams}
+\textit{POSIX} ist die kurzform des \textit{Portable Operating System Interface}.
+Unter diesem Namen ist eine Reihe von IEEE Standards für Unix spezifiziert worden.
+Dabei handelt es sich um eine standardisierte Programmierschnittstelle, die die Schnittstelle zwischen Anwendungen und Betriebssystem darstellen soll\cite{posix:2023}.
+Bei diesen liegt der Hauptfokus auf File I/O und Streams.\par
+Im POSIX wird unterschieden zwischen Datenquellen und -senken.
+Dabei kann man die die Datenquellen als Sender und die Datensenken als Empfänger sehen.
+Diese beiden werden über die sogenannten Streams, also Datenströme, verbunden.
+Datenströme oder Streams sind kontinuierliche Byteströme.
+Geräte sind in der Lage diese Byteströme zu lesen oder zu schreiben.
+Wenn nun zwei Geräte miteinander kommunizieren oder Daten austauschen wollen, kann eines dieser Geräte in den Stream schreiben (Datenquelle) und das andere diesen lesen (Datensenke).
+Mit Streams kann ebenfalls mit Dateien kommuniziert werden.\par
+In POSIX wird alles als Datei angesehen. 
+Jede Datensenke hat einen \textit{Filename}.\par
+In hosted Implementierungen greifen Programme nicht auf Dateien zu.
+Sie kommunizieren über Streams nach außen.
+Die Programme bitten das Betriebssystem einen Stream des Inhaltes zur Verfügung zu stellen.
+Diese Aufgabe übernimmt der File-Descriptor.
+Dieser enthält die Informationen über die Verknüpfung eines Streams.
+Dieser wird vom Betriebssystem erstellt und repräsentiert den geöffneten Stream.
+Die File-Descriptor werden durchnummeriert mit Integer Werten damit diese den geöffneten Streams im Prozess zugeordnet werden können\cite{filedescriptors:2011}.\par
+Bei freestanding Implementierungen ist dies komplizierter, da es kein Betriebssystem gibt das diesen Stream zur Verfügung stellt.
+Dort muss die Codierung Byte für Byte kontrolliert werden.\par 
+Das Betriebssystem öffnet auch Standardmäßig einige Streams.
+Diese sind zum Beispiel mit dem Terminal verbunden.
+Der stdin Stream liest die vom Benutzer ins Terminal geschriebenen Daten und gibt diese ans Betriebssystem weiter.
+Der stdout Stream bekommt hingegen Daten vom Betriebssystem und übergibt diese ans Terminal\cite{boekelmann:2023}.
+
+
+\section{Repo} 
+In diesem Repo auf Gtilab befindet sich die Bearbeitung des Programmierteils der Aufgabe 7.
+In diesem C-Programm soll ein Beispiel für das arbeiten mit Streams dargestellt werden.
+Dabei wird aus einem Stream gelesen und etwas in einen Stream geschrieben.\par
+\href{https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_7_streams}{\textbf{LINK}}
