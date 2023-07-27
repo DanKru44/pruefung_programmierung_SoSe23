@@ -69,7 +69,7 @@ Umfangreichere Informationen zu den Teilaufgaben befinden sich in der README.md 
 - Ein Programm erstellen das die Nutzung von Pointerarithmetik exemplarishc darstellt
 - [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_6_pointer)
 
-### [ ] Aufgabe 7
+### [x] Aufgabe 7
 - Beschreibung von Streams und was diese mit Posix zu tuen haben
 - Schreiben eines einfache Beispiels zum lesen und schreiben aus einem Stream
  - [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_7_streams)
