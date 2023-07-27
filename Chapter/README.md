@@ -88,9 +88,9 @@ optional:
 [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_6_pointer)
 
 ### Aufgabe 7 
-- [ ] Erklärung zu Streams von 300 +/- 15 Wörtern
-	- [ ] Was sind Streams?
-	- [ ] Was haben sie mit POSIX zu tuen?
+- [x] Erklärung zu Streams von 300 +/- 15 Wörtern
+	- [x] Was sind Streams?
+	- [x] Was haben sie mit POSIX zu tuen?
 
 - [x] Schreiben eines Beispiel Programms 
 	- [x] Aus einem Stream lesen
