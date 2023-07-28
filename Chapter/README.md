@@ -99,9 +99,9 @@ optional:
 [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_7_streams)
 
 ### Aufgabe 8
-- [ ] Schreiben eines Programms das eine .csv Datei verarbeitet
-	- [ ] Erstellen einer .csv Datei mit beliebigem Inhalt. Drei Spalten + drei Zeilen zzgl. Kopfzeile
-	- [ ] Nutzen der Library libcsv um die Datei einzulesen und in beliebigen Format in das Termial zu printen
+- [x] Schreiben eines Programms das eine .csv Datei verarbeitet
+	- [x] Erstellen einer .csv Datei mit beliebigem Inhalt. Drei Spalten + drei Zeilen zzgl. Kopfzeile
+	- [x] Nutzen der Library libcsv um die Datei einzulesen und in beliebigen Format in das Termial zu printen
 
 [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_8_csv)
 
