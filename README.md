@@ -74,7 +74,7 @@ Umfangreichere Informationen zu den Teilaufgaben befinden sich in der README.md 
 - Schreiben eines einfache Beispiels zum lesen und schreiben aus einem Stream
  - [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_7_streams)
 
-### [ ] Aufgabe 8
+### [x] Aufgabe 8
 - Erstellen einer .csv,  einlesen der Daten und Ausgabe der Werte in das Terminal
 - [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_8_csv)#
 
