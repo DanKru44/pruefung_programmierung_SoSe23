@@ -64,7 +64,7 @@ Umfangreichere Informationen zu den Teilaufgaben befinden sich in der README.md 
 - Schreiben einer Library für den Umgang mit Komplexen Zahlen
 - [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_5_librarys)
 
-### [ ] Aufgabe 6
+### [x] Aufgabe 6
 - Beschreibung des Begriffs Pointerarithmetik
 - Ein Programm erstellen das die Nutzung von Pointerarithmetik exemplarishc darstellt
 - [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_6_pointer)
@@ -100,22 +100,17 @@ Kleine Teilschritte die nicht direkt mit den Aufgaben zu tun haben, allerdings m
 - [x] Aufgaben einbindung in die main.tex testen
 - [x] Fehler in der Quellenangabe von Satz(Druck) beheben 
 	- Der Fehler war die Angabe des Datums in .bib Datei. Alle Datums Angaben müssen in separate Felder für year, month und day eingetragen werden, damit diese richtig formatiert werden.
-- [ ] Datum in die main.tex am Ende der Bearbeitung einfügen
-- [ ] Formatierung der main.tex 
-	- [ ] Fußzeile 
-	- [ ] Kopfzeile
 
 	Standarformat für die Fuß- und Kopfzeile verwenden?
 	- [x] Abbildungsverzeichnis
 	- [x] Tabellenverzeichnis
 	- [x] Literaturverzeichnis 
-	- [ ] Begriffsverzeichnis
-- [ ] Vorwort
+	- [x] Begriffsverzeichnis
 - [x] Stil Absätze in den Style Ordner umlagern
 	- [x] Bilbliographystyle
 	- [x] listingsstyle
 
-- [ ] **README´s schreiben !!!**
+- [x] **README´s schreiben !!!**
 ## Links
 Hier sind einige nützliche Links enthalten zur Bearbeitung von .tex Dateien , .md Dateien, usw. 
 
