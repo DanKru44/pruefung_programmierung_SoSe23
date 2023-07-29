@@ -108,13 +108,13 @@ optional:
 ### Aufgabe 9
 In diesem [Repo](https://gitlab.thga.de/programmierung2023/example-oszi-data) befinden sich drei Oszilloskop aufnahmen von Wechselspannungen. Davon sind zwei Sinusspannungen und eine Rechteckspannung. 
 
-- [ ] Beschreibung eines Algorithmus zum herausfinden der Samplingrate bei bekannter Frequenz
+- [x] Beschreibung eines Algorithmus zum herausfinden der Samplingrate bei bekannter Frequenz
 	- [ ] Implementieren des Algorithmus und herausfinden der Samplingrate der 50Hz Sinusaufnahme
 
-- [ ] Beschreiben eines Algorithmus zum herausfinden der Frequenz bei bekannter Samplingrate
+- [x] Beschreiben eines Algorithmus zum herausfinden der Frequenz bei bekannter Samplingrate
 	- [ ] Implementieren des Algorithmus und herausfinden der Samplingrate der unbekannten Sinusaufnahme
 
-- [ ] Beschreiben eines Algorithmus mit dem man die Frequenz der Aufgenommenen Rechteckspannung bestimmen kann
+- [x] Beschreiben eines Algorithmus mit dem man die Frequenz der Aufgenommenen Rechteckspannung bestimmen kann
 
 [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_9_algorithmen)
 
