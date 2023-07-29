@@ -17,3 +17,6 @@ Das Bild stellt Beispielweise die Anlegung des Stack und Heap in C-Programmen da
 
 ### Definitonsbereich_4
 In diesem Bild ist der Definitionsbereich des C-Programms der Aufgabe 4 zu sehen.
+
+###speicherdiagramm_aufgabe6
+Dieses Bild gehört zur Bearbeitung der Aufgabe 6 und stellt beispielhaft den verwendeten Speicher des Programms der Aufgabe 6 dar.
