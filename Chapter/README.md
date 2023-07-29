@@ -83,7 +83,7 @@ optional:
 	- [x] Zeiger im Zusammenspiel mit Arrays
 	- [x] Beispiel für die Adressierung von structs einfügen
 
-- [ ] visualisieren des Programms mit einem Speicherdiagramm
+- [x] visualisieren des Programms mit einem Speicherdiagramm
 
 [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_6_pointer)
 
