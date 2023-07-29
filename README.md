@@ -89,8 +89,8 @@ Umfangreichere Informationen zu den Teilaufgaben befinden sich in der README.md 
 - Programmieren eines C-Programms dass einen Fenster öffnet 
 - [Repo](https://gitlab.thga.de/daniel.krueger/pruefung_sose_2023_aufgabe_10_gui)
 
-### [ ] Bonusaufgabe 
-- Auswahl eines Programmes aus dem Repo [heirloom-project](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom).
+### [x] Bonusaufgabe 
+- Auswahl eines Programms aus dem Repo [heirloom-project](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom).
 - Beschreiben und erklären des Programms Zeile für Zeile.
 
 ## To do´s 
