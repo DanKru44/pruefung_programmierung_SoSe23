@@ -130,8 +130,8 @@ In diesem [Repo](https://gitlab.thga.de/programmierung2023/example-oszi-data) be
 - [x] Beschreibung des Projektes 
 - [x] Anschauen des [heirloom-project](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom)
 - [x] Aussuchen eines der Programme: cat
-- [ ] Kompilieren und Beobachtungen aufschreiben
-	- [ ] Thema makefiles beschreiben
-- [ ] Versuchen den Code Zeile für Zeile zu erklären 
-	- [ ] Mit Abbildungen oder Diagrammen erläutern
+- [x] Kompilieren und Beobachtungen aufschreiben
+	- [x] Thema makefiles beschreiben
+- [x] Versuchen den Code Zeile für Zeile zu erklären 
+	- [x] Mit Abbildungen oder Diagrammen erläutern
 > **Wichtig:** Die Erklärung muss nicht zu 100% korrekt sein, es geht darum zu zeigen dass man sich Mühe gibt 
