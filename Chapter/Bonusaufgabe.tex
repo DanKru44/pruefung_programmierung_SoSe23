@@ -33,7 +33,7 @@ Dieser ist in Abbildung \ref{clang_cat.c_fehler} zusehen. Es fehlt eine Biblioth
 In einem weiteren Versuch wurde versucht mit gcc zu kompilieren, allerdings führte dies zum selben Ergebnis.\par
 Um dieses Projekt so zu kompilieren ist dies der falsche Ansatz gewesen.
 
-\subsection[makefiles]
+\subsection{makefiles}
 Für die Kompilation der Programm in diesem Repo hat Herr Ritter Makefiles angelegt.Das Programm make kann diese Makefiles verarbeiten.
 Dazu muss diesem innerhalb des Makefiles mitgeteilt werden was das Programm ausführen soll, das ist das \textit{target}, und wie es dies ausführen soll, das ist die {textit{Regel}\cite{makefiles:2002}.
 Dies wird genutzt um den Kompilationsprozess zu vereinfachen und somit können komplexere Kompilationsanweisungen einfacher ausgeführt werden.
@@ -58,10 +58,10 @@ Das Programm kann mit folgendem Befehl ausgeführt werden.\par
 \end{lstlisting}
 
 Übergibt man nun eine Datei bei der Ausführung von cat wird der Inhalt der Datei in das Terminal geprintet.\par
-Einige der Programm, wie zum Beispiel clock_settime, beinhalten veraltete nutzen veraltete Bibliotheken.
-Im Falle von clock_settime wäre dies die Funktion stime\cite{stime:2023}.
+Einige der Programm, wie zum Beispiel clock\_settime, beinhalten veraltete nutzen veraltete Bibliotheken.
+Im Falle von clock\_settime wäre dies die Funktion stime\cite{stime:2023}.
 Diese zu ersetzen ist allerdings nicht so einfach, wie im Tutorium festgestellt wurde.
-Die einfache Ersetzung durch clock_settime funktioniert nicht und es sind noch weitere Änderung notwendig. \par
+Die einfache Ersetzung durch clock\_settime funktioniert nicht und es sind noch weitere Änderung notwendig. \par
 
 \section{Die Datei cat.1}
 In dem Ordner des Programms cat befindet sich die Datei cat.1 .
@@ -71,10 +71,14 @@ Dazu werden alle Optionen und Übergabewerte beschrieben.\par
 
 
 \section{Der Programmcode von cat.c}
-In diesem Abschnitt wird der Code des Programms cat.c Zeile für Zeile durchgegangen, um nachzuvollziehen was dort geschieht. Dabei wird der Einleitende Kommentar von Gunnar Ritter übersprungen. Dort findet man Copyright Aussagen und Benutzungsrechte.
+In diesem Abschnitt wird der Code des Programms cat.c Zeile für Zeile durchgegangen, um nachzuvollziehen was dort geschieht. 
+Dabei wird der Einleitende Kommentar von Gunnar Ritter übersprungen. Dort findet man Copyright Aussagen und Benutzungsrechte.
 
 \subsection{Die Versionsabfrage von Gnuc und setzen der Flaggen}
-Zu beginn, in den Zeilen 28 bis 34, des Codes findet man eine Versionsabfrage von \textit{GNUC} mittels einer if Kontrollstruktur. Diese soll feststellen welche Version des Compilers GNUC auf dem Gerät installiert oder ob dieser überhaupt installiert ist. Ist dieser in der Version höher oder gleich 3 \textbf{und} \textit{GNUC\_minor} höher oder gleich 4, wird der Variable USED über die \textit{Attribut Spezfikation} used zugewiesen. Dies geschieht auch wenn GNUC un der Version gleich 4 oder höher installiert ist, wenn die beiden voherigen Bedingungen nicht erfüllt sind.
+Zu beginn, in den Zeilen 28 bis 34, des Codes findet man eine Versionsabfrage von \textit{GNUC} mittels einer if Kontrollstruktur.
+Diese soll feststellen welche Version des Compilers GNUC auf dem Gerät installiert oder ob dieser überhaupt installiert ist.
+Ist dieser in der Version höher oder gleich 3 \textbf{und} \textit{GNUC\_minor} höher oder gleich 4, wird der Variable USED über die \textit{Attribut Spezfikation} used zugewiesen.
+Dies geschieht auch wenn GNUC un der Version gleich 4 oder höher installiert ist, wenn die beiden voherigen Bedingungen nicht erfüllt sind.
 
 \begin{lstlisting}
 #define USED	__attribute__ ((used))
@@ -92,14 +96,23 @@ Ist GNUC überhaupt nicht installiert wird der Variable USED nichts zugewiesen. 
 #define USED
 \end{lstlisting}
 
-Im Anschluss an die if-Schleife, in der Zeile 35, wird der Variable USED ein statisches character array zugewiesen namens sccsid. Dies geschieht nur wenn der Variable USED auch das Attribut used zugewiesen wurde. In dieses Array werden die nach der Eingabe von cat im Terminal genutzten Flaggen aus der geschrieben.
+Im Anschluss an die if-Schleife, in der Zeile 35, wird der Variable USED ein statisches character array zugewiesen namens sccsid.
+Dies geschieht nur wenn der Variable USED auch das Attribut used zugewiesen wurde.
+In dieses Array werden die nach der Eingabe von cat im Terminal genutzten Flaggen aus der geschrieben.
 
 \subsection{Eingebundene Bibliotheken}
-Die Zeilen 37 bis 52 enthalten die für das Programm verwendeten Bibliotheksdateien.Diese enthalten die Funktionen die später im Code verwendet werden. Dabei soll hier jetzt nicht auf jede einzelne Bibliotheksdatei und deren Funktion eingegangen werden. Es finden sich allerdings auch "Standard-Bibliotheken" wir stdio.h oder stdlib.h wieder.
+Die Zeilen 37 bis 52 enthalten die für das Programm verwendeten Bibliotheksdateien.
+Diese enthalten die Funktionen die später im Code verwendet werden.
+Dabei soll hier jetzt nicht auf jede einzelne Bibliotheksdatei und deren Funktion eingegangen werden.
+Es finden sich allerdings auch "Standard-Bibliotheken" wir stdio.h oder stdlib.h wieder.
 
 \subsection{Statische Variablen}
-Der nächste Teil des Programmcode, von Zeile 54 bis 63, enthält mehrere Deklarationen von statischen Variablen. Diese behalten ihren zugewiesenen Wert über das ganze Programm hinweg, beziehungsweise diese  werden nicht neu initialisiert beim Aufruf eines Blocks in dem sich vorkommen. \par
-Die erste initialisierte Variable ist errcnt. Diese soll die Fehlermeldungen beim ausführen des Programms zählen. Der dafür verwendete Datentyp ist unsigned, er kann also nur positive Werte speichern. Dies ist auch sinnvoll, da die Summe der Fehlermeldungen nicht negativ sein kann. \pari
+Der nächste Teil des Programmcode, von Zeile 54 bis 63, enthält mehrere Deklarationen von statischen Variablen.
+Diese behalten ihren zugewiesenen Wert über das ganze Programm hinweg, beziehungsweise diese  werden nicht neu initialisiert beim Aufruf eines Blocks in dem sich vorkommen. \par
+Die erste initialisierte Variable ist errcnt.
+Diese soll die Fehlermeldungen beim ausführen des Programms zählen.
+Der dafür verwendete Datentyp ist unsigned, er kann also nur positive Werte speichern.
+Dies ist auch sinnvoll, da die Summe der Fehlermeldungen nicht negativ sein kann. \par
 Weiterhin werden einige Variablen für verwendete Flaggen initialisiert, eine für den Programmname, eine Nutzerdefinierte Struktur und ein integer namens multibyte.\par
 
 \subsection{Funktionen}
@@ -133,7 +146,7 @@ Innerhalb der Funktion werden außerdem verschiedene übergebene Optionen berüc
 In Abhängigkeit dieser wird der Inhalt der übergenen Datei bearbeitet.
 Ebenfalls wird innerhalb der Funktion das Zielsystem Linux berücksichtigt.
 
-\begin{lstlising}
+\begin{lstlisting}
 	#ifdef __linux__
 	....
 	#endif /* __linux */
@@ -147,7 +160,7 @@ In diesem Abschnitt wird die Dateiübertragung für Linuxsysteme überprüft.
 Zum beginn der main werden zunächst zwei Variablen initalisiert.\par
 Anschließen folgt eine Präprozessoranweisung, zur überprüfung der gnu c library.
 Diese stellt einige für Unixsysteme vorhandene C-Funktionen zur Verfügung.
-In diesem Fall wird die Variable POSIXLY_CORRECT auf eeins gesetzt.
+In diesem Fall wird die Variable POSIXLY\_CORRECT auf eeins gesetzt.
 Dies dient dazu einige Funktionen im Programm dem POSIX-Standard anzupassen.\par
 Anschließend wird der Variablen progname dem wert des argument value null zugewiesen.
 Mit dem folgendem Befehl setlocale wird das Betriebsystem aufgefordert die lokale Sprache und Einstellungen des Systems dem Programm zu übergeben.
@@ -158,7 +171,7 @@ Ist dies nicht der Fall, und das System verwendet nur ein Byte pro Zeichenkette,
 Das Programm überprüft nun mit Befehl getopt, welche Optionen dem Programm übergeben wurden. 
 Ist eine der mögliche Optionen übergeben worden wird die dafür initialisierte Variable auf den Wert 1 gesetzt.
 Wird die die Option --help genutzt. Wird die Funktion usage aufgerufen und die Verwendung des Programms und dessen Optionen wird ins Terminal geprintet.\par
-Nun wir der Nutzerdefinierten Struktur op über die Funktion ob_alloc ein Datenstruktur zugewiesen.
+Nun wir der Nutzerdefinierten Struktur op über die Funktion ob\_alloc ein Datenstruktur zugewiesen.
 Dieser hängt davon ab welche Flaggen genutzt werden.\par
 Anschließend erfolgt eine weitere Fehlerbehandlung.
 Dort wird der Dateideskriptor zum Standard out überprüft.
@@ -171,7 +184,7 @@ Ist dies der Fall folgt eine while-Schleife, in der Funktion copy solange aufger
 Da dieser Teil solange aufgerufen wird bis beide Werte gleich sind, endet dort die while-Schleife.
 Anschließend zu der if-Abfrage folgt die else-Behandlung.
 Dort wird einmalig die Funktion copy aufgerufen.\par
-Mit dem folgenden Aufruf der Funktion ob_free wird vermutlich der Speicher den der Zeiger op verwendet wieder freigegeben.
+Mit dem folgenden Aufruf der Funktion ob\_free wird vermutlich der Speicher den der Zeiger op verwendet wieder freigegeben.
 Nun wird noch der Dateideskriptor zum Standard output geschlossen.
 Ist dies erfolgreich gibt die Funktion close den Wert 0 zurück.
 Im Fehlerfall ist der Wert -1 und somit kleiner als 0.
