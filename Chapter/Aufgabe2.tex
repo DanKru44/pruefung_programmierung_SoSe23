@@ -23,10 +23,9 @@ Der Stack und der Heap werden gegeneinander zulaufend angelegt wie in Abbildung 
 \end{figure}
 
 Dabei sollte darauf geachtet werden das in dem Fall das Stack und Heap immer größer werden, diese ineinander laufen und dies zur gegenseitigen Überschreibung der Daten führen kann. \par
-Bei der Speicherverwaltung spielt ebenfalls das Betriebssystem eine wichtige Rolle.
 Fordert ein C-Programm Speicher bei dem Betriebssystem an, interagiert diese mit dem Hardware-Speicher und reserviert einen Bereich im Speicher für das Programm.
 Gibt das Programm den Speicher wieder frei, kann das Betriebssystem diesen recyclen und für andere Prozesse verwenden\cite{stackandheap:2022}. \par
-Die Möglichkeit des Speicherzugriffs kann allerdings auch zu Sicherheitsproblemen führen.
-Sicherheitslücken können entstehen wenn zum Beispiel mit Zeigern unvorsichtig umgegangen wird, die zu Pufferüberläufen führen.
-Dies sollte vermieden werden und um Sicherheitsrisiken und potentielle Fehler zu minimieren\cite{boekelmann:2023}.
+Die Möglichkeit des Speicherzugriffs kann auch zu Sicherheitsproblemen führen.
+Sicherheitslücken können entstehen wenn mit Zeigern unvorsichtig umgegangen wird, die zu Pufferüberläufen führen.
+Dies sollte vermieden werden und um Sicherheitsrisiken zu minimieren\cite{boekelmann:2023}.
 

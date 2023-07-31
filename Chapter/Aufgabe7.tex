@@ -7,7 +7,7 @@ Bei diesen liegt der Hauptfokus auf File I/O und Streams.\par
 Im POSIX wird unterschieden zwischen Datenquellen und -senken.
 Dabei kann man die die Datenquellen als Sender und die Datensenken als Empfänger sehen.
 Diese beiden werden über die sogenannten Streams, also Datenströme, verbunden.
-Datenströme oder Streams sind kontinuierliche Byteströme.
+Datenströme sind kontinuierliche Byteströme.
 Geräte sind in der Lage diese Byteströme zu lesen oder zu schreiben.
 Wenn nun zwei Geräte miteinander kommunizieren oder Daten austauschen wollen, kann eines dieser Geräte in den Stream schreiben (Datenquelle) und das andere diesen lesen (Datensenke).
 Mit Streams kann ebenfalls mit Dateien kommuniziert werden.\par
@@ -19,7 +19,7 @@ Die Programme bitten das Betriebssystem einen Stream des Inhaltes zur Verfügung
 Diese Aufgabe übernimmt der File-Descriptor.
 Dieser enthält die Informationen über die Verknüpfung eines Streams.
 Dieser wird vom Betriebssystem erstellt und repräsentiert den geöffneten Stream.
-Die File-Descriptor werden durchnummeriert mit Integer Werten damit diese den geöffneten Streams im Prozess zugeordnet werden können\cite{filedescriptors:2011}.\par
+Die File-Descriptor werden durchnummeriert damit diese den geöffneten Streams im Prozess zugeordnet werden können\cite{filedescriptors:2011}.\par
 Bei freestanding Implementierungen ist dies komplizierter, da es kein Betriebssystem gibt das diesen Stream zur Verfügung stellt.
 Dort muss die Codierung Byte für Byte kontrolliert werden.\par 
 Das Betriebssystem öffnet auch Standardmäßig einige Streams.
