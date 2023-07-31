@@ -70,20 +70,19 @@ Der angepasste Algorithmus ist in Abbildung \ref{algo2.1} zu sehen.
 \end{figure}
 
 \section{Algorithmus zur Bestimmung der Frequenz einer Rechteckspannung}
-Um die Frequenz der Rechteckspannung zu bestimmen, kann wieder die bereits ermittelte Samplingrate verwendet werden. 
-Somit muss wieder die die Anzahl der Messwerte pro Periode bestimmt werden.
-Als Periodenbeginn wird der beginn des Maximalwert bis nächsten beginn des Maximalwert festgelegt.
-Nun muss die Anzahl der Messwerte dazwischen gezählt werden,
-Anschließend kann mit der Formel T = $\frac{N}{SR}$ und der Formel f = $\frac{1}{T}$ die Frequenz bestimmt werden.
-Fasst man diese wieder zusammen führt dies zu der Formel f = $\frac{SR}{N}$ .
-In der Abbildung \ref{algo3} ist das Ablaufdiagramm des Algorithmus dargestellt.\par
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[scale=0.5]{Images/aufgabe9_algo3.png}
-	\caption{Ablaufdiagramm des dritten Algorithmus der Aufgabe 9}
-	\label{algo3}
-\end{figure}
+Die Frequenz der Rechteckspannung kann mit dem selben Algorithmus der zur Bestimmung der Frequenz der Sinusspannung bestimmt werden.
+Beim ausprobieren hat sich allerdings ein Fehler im Algorithmus bemerkbar gemacht der bei der Sinusspannung nicht aufgetreten ist.
+In den Werten der Rechteckspannung gibt es an einigen Stellen in den Minima einen Ausreißer.
+Dort springt der Wert unter 14 auf 13. 
+Das Problem das sich dadurch einstellt ist, das Programm nimmt diesen als erreichen des ersten Minima an.
+Dieses Problem gab es bei der Sinusspannung nicht da da dort der Minimal Wert 14 war und die Ausreißer hoch auf 15 gesprungen sind.
+Es muss also zusätzlich noch eine Regel Implementiert werden die bei der Rechteckspannung feststellt, dass das Minima beim ersten erreichen feststellt und die nachfolgenden Werte ignoriert.
+Dazu könnte festgestellt werden an welchem Punkt die Spannung fällt und bis zu welchem Punkt.
+Nach diesem Punkt müsst die Funktion dann abbrechen um das prüfen weiterer Werte zu verhindern.
+Somit würde der Ausreißer nicht mit betrachtet werden.
+Diese Implementierung würde definitiv auch Sinn für die Ermittlung einer Sinusspannung machen, da nicht davon ausgegangen werden kann dass bei anderen Messwert Aufnahmen dies nicht vorkommen kann.
+Auch wenn dies in den bereitgestellten Messwerten nicht vorkam. 
+Dies gilt auch für die Bestimmung des zweiten Minima.
 
 \section{Repo}
 In diesem Repo auf auf Gitlab befindet sich der Programmierteil der Aufgabe 9.
